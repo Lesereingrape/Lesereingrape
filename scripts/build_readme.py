@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.parse
@@ -28,6 +29,7 @@ MIN_STARS = int(os.environ.get("MIN_STARS", "1000"))
 API = "https://api.github.com"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = os.path.join(ROOT, "README.md")
+STAMP_RE = re.compile(r"record last changed \d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC")
 
 _badge = "https://img.shields.io/badge/"
 
@@ -247,10 +249,19 @@ def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> s
         "[`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub "
         "search API and refreshed by "
         "[`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) "
-        f"&middot; last build {build_stamp()}.</sub>"
+        f"&middot; record last changed {build_stamp()}.</sub>"
     )
     add("")
     return "\n".join(lines)
+
+
+def without_stamp(text: str) -> str:
+    """Drop the build timestamp so a no-op refresh does not dirty the file.
+
+    Without this the scheduled run would commit every few hours just to move a
+    clock forward, which buries the commits that mean something.
+    """
+    return STAMP_RE.sub("record last changed", text)
 
 
 def main() -> int:
@@ -272,24 +283,28 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001 - keep the page buildable
             print(f"warn: no stars for {full}: {exc}", file=sys.stderr)
             stars[full] = 0
+    if not merged and "--force" not in sys.argv:
+        # A search that comes back empty is more likely a token or network
+        # problem than a person who never merged anything: never publish it.
+        raise SystemExit("refusing to render: no merged pull requests found")
     body = render(merged, open_prs, stars)
     print(
         f"merged={len(merged)} open={len(open_prs)} repos={len(repos)}",
         file=sys.stderr,
     )
-    if "--write" in sys.argv:
-        old = ""
-        if os.path.exists(README):
-            with open(README, encoding="utf-8") as fh:
-                old = fh.read()
-        if old != body:
-            with open(README, "w", encoding="utf-8", newline="\n") as fh:
-                fh.write(body)
-            print("README.md updated", file=sys.stderr)
-        else:
-            print("README.md unchanged", file=sys.stderr)
-    else:
+    if "--write" not in sys.argv:
         sys.stdout.write(body)
+        return 0
+    old = ""
+    if os.path.exists(README):
+        with open(README, encoding="utf-8") as fh:
+            old = fh.read()
+    if without_stamp(old) == without_stamp(body):
+        print("README.md unchanged", file=sys.stderr)
+        return 0
+    with open(README, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(body)
+    print("README.md updated", file=sys.stderr)
     return 0
 
 
