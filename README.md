@@ -4,14 +4,14 @@ Every pull request below is a commit that landed in someone else's repository: a
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![MERGED PRs 9](https://img.shields.io/badge/MERGED__PRs-9-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![PROJECTS 4](https://img.shields.io/badge/PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.0K](https://img.shields.io/badge/UPSTREAM__STARS-154.0K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![MERGED PRs 10](https://img.shields.io/badge/MERGED__PRs-10-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![PROJECTS 4](https://img.shields.io/badge/PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.1K](https://img.shields.io/badge/UPSTREAM__STARS-154.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 82.9K | 3 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.2K | 1 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.3K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 1 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.3K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
 
@@ -19,7 +19,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 <summary><b>Merged per month</b></summary>
 
 ```text
-2026-09  ######################################## 9
+2026-09  ######################################## 10
 ```
 
 </details>
@@ -29,6 +29,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-09-24 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) fix(formatter): forward the images of collapsed messages in xAI multi-agent history |
 | 2026-09-23 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [#12810](https://github.com/deepset-ai/haystack/pull/12810) fix(auth): deserialize listed secrets when recursive is enabled |
 | 2026-09-22 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) fix(rpc): treat a blank IDA_MCP_URL as unset for download URLs |
 | 2026-09-22 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5609](https://github.com/bytedance/deer-flow/pull/5609) fix(subagents): report an explicit zero batch limit instead of defaulting it |
@@ -42,20 +43,21 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (35 open pull requests)</b></summary>
+<summary><b>In review right now (39 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 5 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) · [#15231](https://github.com/langflow-ai/langflow/pull/15231) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 4 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 4 | [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 3 | [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 3 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 3 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 3 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23191](https://github.com/PrefectHQ/prefect/pull/23191) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 2 | [#910](https://github.com/TencentCloud/Octop/pull/910) · [#912](https://github.com/TencentCloud/Octop/pull/912) |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 1 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) |
 
 </details>
 
@@ -63,4 +65,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-23 14:13 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-24 04:46 UTC.</sub>
