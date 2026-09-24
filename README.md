@@ -4,13 +4,13 @@ Every pull request below is a commit that landed in someone else's repository: a
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![MERGED PRs 15](https://img.shields.io/badge/MERGED__PRs-15-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![PROJECTS 4](https://img.shields.io/badge/PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.1K](https://img.shields.io/badge/UPSTREAM__STARS-154.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![MERGED PRs 16](https://img.shields.io/badge/MERGED__PRs-16-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![PROJECTS 4](https://img.shields.io/badge/PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.1K](https://img.shields.io/badge/UPSTREAM__STARS-154.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 82.9K | 7 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 82.9K | 8 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.3K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.3K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
@@ -19,7 +19,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 <summary><b>Merged per month</b></summary>
 
 ```text
-2026-09  ######################################## 15
+2026-09  ######################################## 16
 ```
 
 </details>
@@ -29,6 +29,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-09-24 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5607](https://github.com/bytedance/deer-flow/pull/5607) fix(memory): reject a Honcho base_url that can never resolve |
 | 2026-09-24 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [#12905](https://github.com/deepset-ai/haystack/pull/12905) fix(core): compare Ellipsis callable parameters by return type |
 | 2026-09-24 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5821](https://github.com/bytedance/deer-flow/pull/5821) fix(community): fall back to the default SearXNG max_results on an unparseable value |
 | 2026-09-24 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5801](https://github.com/bytedance/deer-flow/pull/5801) fix(gateway): treat a blank GATEWAY_HOST/GATEWAY_PORT as unset |
@@ -48,7 +49,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (40 open pull requests)</b></summary>
+<summary><b>In review right now (39 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -64,7 +65,6 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 2 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 2 | [#910](https://github.com/TencentCloud/Octop/pull/910) · [#912](https://github.com/TencentCloud/Octop/pull/912) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#682](https://github.com/andrewyng/openworker/pull/682) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 1 | [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
 
 </details>
 
@@ -72,4 +72,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-24 11:41 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-24 17:07 UTC.</sub>
