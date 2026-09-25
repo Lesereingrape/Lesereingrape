@@ -1,0 +1,77 @@
+{
+  "intro": "These {n} labs were each built from scratch and run on a laptop CPU. Every one ships a verifier, multi-seed measurements, and a README whose results table is rendered from a committed JSON by a script the CI byte-compares against, so no number in any of them is hand-typed. The descriptions below are pulled live from each repository, so this table cannot rot either.",
+  "tracks": [
+    {
+      "name": "Post-training and alignment",
+      "repos": [
+        {
+          "repo": "align-lab",
+          "hook": "Four preference-optimisation objectives on one task and one policy: the pair-wise win-rate is a flattering metric that can rise while generation gets worse."
+        },
+        {
+          "repo": "grpo-repro",
+          "hook": "GRPO, REINFORCE and DPO as three arms on identical weights and an identical verifiable reward. With a partial credit given to any legal answer, all three collapse to a degenerate output; the reward shape, not the algorithm, was the bug."
+        },
+        {
+          "repo": "reward-hacking-lab",
+          "hook": "Same loop, two rewards: optimise an exact verifier and true accuracy climbs, optimise a learned proxy and the proxy climbs while accuracy falls. Goodhart on demand, measured."
+        },
+        {
+          "repo": "starlab",
+          "hook": "STaR bootstrap: the model samples its own chains, an exact arithmetic verifier filters them, survivors become next round's training set - reported against a matched-compute control so the gain cannot be mistaken for simply training longer."
+        },
+        {
+          "repo": "data-select-lab",
+          "hook": "LESS-style LoRA gradient features pick the few dozen examples that teach a frozen model a held-out skill; the same table reports how much of the skill it already had that costs."
+        }
+      ]
+    },
+    {
+      "name": "Self-optimising agents",
+      "repos": [
+        {
+          "repo": "skill-lab",
+          "hook": "Voyager-style skill library distilled from the agent's own verified plans: the budget spent on the next task falls as the library grows, which is the whole claim."
+        },
+        {
+          "repo": "autprompt-lab",
+          "hook": "OPRO / Promptbreeder-style prompt search under an equal query budget - random, greedy and population evolution scored against one frozen policy, so the comparison is about search, not compute."
+        },
+        {
+          "repo": "evolve-lab",
+          "hook": "A (mu, lambda) evolution strategy over dispatch rules rediscovers WSPT from an exact tardiness verifier. Dependency-free, and honest that the margin it keeps over WSPT sits inside the seed noise."
+        }
+      ]
+    },
+    {
+      "name": "Agent systems on a tiny LLaMA-style stack",
+      "repos": [
+        {
+          "repo": "lagent",
+          "hook": "ReAct scaffold ablation on identical behaviour-cloned weights: strip the observation scratchpad and the solve rate collapses. The harness loop is load-bearing machinery, not decoration around the model."
+        },
+        {
+          "repo": "agent-harness-eval",
+          "hook": "Paired bootstrap and McNemar for comparing agent rollouts, because a three-seed difference is not a result and most harness comparisons never check."
+        },
+        {
+          "repo": "hier-memo-agents",
+          "hook": "Planner and executor agents over a shared blackboard with citation-linked reuse: memory matched by topic rather than by question, so reuse is transfer and not a cache hit."
+        }
+      ]
+    },
+    {
+      "name": "Reasoning and measurement",
+      "repos": [
+        {
+          "repo": "consistency-lab",
+          "hook": "A sequential stopping rule for self-consistency: sample chains until the vote is statistically decided, then spend the chains you saved on the questions that are actually contested."
+        },
+        {
+          "repo": "vlm-distill-bench",
+          "hook": "Distillation plus quantisation of a compact vision-language model on procedural mini-CLEVR, including the negative result that temperature-scaled KD can lose to plain cross-entropy at this scale."
+        }
+      ]
+    }
+  ]
+}

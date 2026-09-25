@@ -29,6 +29,7 @@ MIN_STARS = int(os.environ.get("MIN_STARS", "1000"))
 API = "https://api.github.com"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = os.path.join(ROOT, "README.md")
+FLAGSHIPS = os.path.join(ROOT, "scripts", "flagships.json")
 STAMP_RE = re.compile(r"record last changed \d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC")
 
 _badge = "https://img.shields.io/badge/"
@@ -100,6 +101,41 @@ def stars_text(n: int) -> str:
     return str(n)
 
 
+def load_flagships() -> dict:
+    with open(FLAGSHIPS, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def flagship_names(spec: dict) -> list[str]:
+    return [e["repo"] for t in spec["tracks"] for e in t["repos"]]
+
+
+def fetch_own(names: list[str]) -> tuple[dict[str, dict], list[str]]:
+    """Read every curated repository straight from the API.
+
+    A hand-kept list rots the moment a repo is renamed, made private, or loses
+    its description, so the build refuses to publish a link it cannot verify
+    instead of putting a 404 on the profile page.
+    """
+    repos: dict[str, dict] = {}
+    problems: list[str] = []
+    for name in names:
+        full = f"{OWNER}/{name}"
+        try:
+            data = get(f"{API}/repos/{full}")
+        except Exception as exc:  # noqa: BLE001 - reported, never published
+            problems.append(f"{full}: unreadable ({exc})")
+            continue
+        if data.get("private"):
+            problems.append(f"{full}: private")
+            continue
+        if not (data.get("description") or "").strip():
+            problems.append(f"{full}: no description")
+            continue
+        repos[name] = data
+    return repos, problems
+
+
 def badge(label: str, value: str, color: str, logo: str = "") -> str:
     q = f"?style=flat-square&labelColor=1b1f24&color={color}"
     if logo:
@@ -122,7 +158,9 @@ def build_stamp() -> str:
     return parsed.strftime("%Y-%m-%d %H:%M UTC")
 
 
-def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> str:
+def render(
+    merged: list[dict], open_prs: list[dict], stars: dict[str, int], own: dict
+) -> str:
     by_repo: dict[str, list[dict]] = defaultdict(list)
     for pr in merged:
         by_repo[repo_full(pr)].append(pr)
@@ -133,6 +171,12 @@ def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> s
     total = sum(len(v) for v in shown.values())
     total_stars = sum(stars[r] for r in shown)
     listed = [p for prs in shown.values() for p in prs]
+    spec = load_flagships()
+    # Count only what the API confirmed exists and is public, so a partial
+    # render can never overstate the total.
+    n_own = sum(
+        1 for t in spec["tracks"] for e in t["repos"] if own.get(e["repo"])
+    )
 
     lines: list[str] = []
     add = lines.append
@@ -140,11 +184,12 @@ def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> s
     add("# Open-source record")
     add("")
     add(
-        "Every pull request below is a commit that landed in someone else's "
-        "repository: a defect I reproduced first, the smallest fix I could "
-        "defend, and the tests that pin the behaviour. This page is rendered "
-        "from the GitHub search API on a schedule, so it cannot drift from "
-        "what is actually merged."
+        "**Two halves.** Below, the work I built and the work I landed in "
+        "other people's projects. Every pull request in the second half is a "
+        "commit that shipped upstream: a defect I reproduced first, the "
+        "smallest fix I could defend, and the tests that pin the behaviour. "
+        "Both halves are rendered from the GitHub API on a schedule, so "
+        "neither can drift from what is actually public."
     )
     add("")
     add(
@@ -156,13 +201,36 @@ def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> s
     add(
         "<p align=\"left\">"
         + " "
+        + badge("OWN LABS", str(n_own), "bc8cff", "flask")
+        + " "
         + badge("MERGED PRs", str(total), "4c8bf5", "github")
         + " "
-        + badge("PROJECTS", str(len(shown)), "3fb950", "package")
+        + badge("UPSTREAM PROJECTS", str(len(shown)), "3fb950", "package")
         + " "
         + badge("UPSTREAM STARS", stars_text(total_stars), "e3b341", "star")
         + "</p>"
     )
+    add("")
+
+    add("## Labs I built")
+    add("")
+    add(spec["intro"].replace("{n}", str(n_own)))
+    add("")
+    for track in spec["tracks"]:
+        add(f"### {track['name']}")
+        add("")
+        add("| Repository | What it demonstrates |")
+        add("| --- | --- |")
+        for entry in track["repos"]:
+            name = entry["repo"]
+            data = own.get(name) or {}
+            url = data.get("html_url") or f"https://github.com/{OWNER}/{name}"
+            desc = (data.get("description") or "").replace("|", r"\|")
+            hook = entry["hook"].replace("|", r"\|")
+            add(f"| [{name}]({url})<br><sub>{desc}</sub> | {hook} |")
+        add("")
+
+    add("## Pull requests merged upstream")
     add("")
     add(
         f"Projects with {MIN_STARS:,}+ stars that have merged my pull requests "
@@ -247,7 +315,8 @@ def render(merged: list[dict], open_prs: list[dict], stars: dict[str, int]) -> s
     add(
         "<sub>Rendered by "
         "[`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub "
-        "search API and refreshed by "
+        "API &mdash; the lab table reads each repository's live description, "
+        "the PR tables read the search API &mdash; and refreshed by "
         "[`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) "
         f"&middot; record last changed {build_stamp()}.</sub>"
     )
@@ -265,6 +334,12 @@ def without_stamp(text: str) -> str:
 
 
 def main() -> int:
+    spec = load_flagships()
+    names = flagship_names(spec)
+    dupes = [n for n, c in Counter(names).items() if c > 1]
+    if dupes:
+        raise SystemExit(f"flagships.json lists a repository twice: {dupes}")
+
     merged = [
         p
         for p in search(f"is:pr is:merged author:{OWNER}")
@@ -283,13 +358,24 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001 - keep the page buildable
             print(f"warn: no stars for {full}: {exc}", file=sys.stderr)
             stars[full] = 0
+    own, problems = fetch_own(names)
     if not merged and "--force" not in sys.argv:
         # A search that comes back empty is more likely a token or network
         # problem than a person who never merged anything: never publish it.
-        raise SystemExit("refusing to render: no merged pull requests found")
-    body = render(merged, open_prs, stars)
+        problems.append("no merged pull requests found")
+    if problems and "--force" not in sys.argv:
+        # A curated list that no longer matches reality is worse than a stale
+        # page: fail the run loudly instead of publishing a dead or private
+        # link under someone's name.
+        for line in problems:
+            print(f"error: {line}", file=sys.stderr)
+        raise SystemExit("refusing to render: the lab list does not verify")
+    for line in problems:
+        print(f"warn: {line}", file=sys.stderr)
+    body = render(merged, open_prs, stars, own)
     print(
-        f"merged={len(merged)} open={len(open_prs)} repos={len(repos)}",
+        f"merged={len(merged)} open={len(open_prs)} repos={len(repos)} "
+        f"labs={len(own)}",
         file=sys.stderr,
     )
     if "--write" not in sys.argv:
