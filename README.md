@@ -8,7 +8,7 @@
 
 ## Labs I built
 
-These 14 labs were each built from scratch and run on a laptop CPU. Every one ships a verifier, multi-seed measurements, and a README whose results table is rendered from a committed JSON by a script the CI byte-compares against, so no number in any of them is hand-typed. The descriptions below are pulled live from each repository, so this table cannot rot either.
+These 14 labs were each built from scratch and run on a laptop CPU. Every one is deterministic, offline and CI-tested, and every figure its README reports is re-derived by a test - from a committed artifact, or by re-running the CLI and byte-comparing the transcript - so no headline number in any of them is hand-typed; the measurement labs run several seeds and print the spread instead of a best run. The descriptions below are pulled live from each repository, so this table cannot rot either.
 
 ### Post-training and alignment
 
@@ -119,4 +119,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 17:08 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 17:27 UTC.</sub>
