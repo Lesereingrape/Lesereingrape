@@ -10,7 +10,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 82.9K | 8 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.0K | 8 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.3K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.3K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
@@ -49,7 +49,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (39 open pull requests)</b></summary>
+<summary><b>In review right now (42 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -59,10 +59,11 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
+| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23191](https://github.com/PrefectHQ/prefect/pull/23191) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
-| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 2 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 2 | [#910](https://github.com/TencentCloud/Octop/pull/910) · [#912](https://github.com/TencentCloud/Octop/pull/912) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#682](https://github.com/andrewyng/openworker/pull/682) |
 
@@ -72,4 +73,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-24 21:29 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub search API and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 04:54 UTC.</sub>
