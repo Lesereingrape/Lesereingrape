@@ -1,5 +1,5 @@
 {
-  "intro": "These {n} labs were each built from scratch and run on a laptop CPU. Every one ships a verifier, multi-seed measurements, and a README whose results table is rendered from a committed JSON by a script the CI byte-compares against, so no number in any of them is hand-typed. The descriptions below are pulled live from each repository, so this table cannot rot either.",
+  "intro": "These {n} labs were each built from scratch and run on a laptop CPU. Every one is deterministic, offline and CI-tested, and every figure its README reports is re-derived by a test - from a committed artifact, or by re-running the CLI and byte-comparing the transcript - so no headline number in any of them is hand-typed; the measurement labs run several seeds and print the spread instead of a best run. The descriptions below are pulled live from each repository, so this table cannot rot either.",
   "tracks": [
     {
       "name": "Post-training and alignment",
