@@ -89,7 +89,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (47 open pull requests)</b></summary>
+<summary><b>In review right now (49 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -104,6 +104,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
+| [livekit/agents](https://github.com/livekit/agents) | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23191](https://github.com/PrefectHQ/prefect/pull/23191) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
@@ -114,4 +115,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 09:16 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 11:47 UTC.</sub>
