@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 14](https://img.shields.io/badge/OWN__LABS-14-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 16](https://img.shields.io/badge/MERGED__PRs-16-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 4](https://img.shields.io/badge/UPSTREAM__PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.2K](https://img.shields.io/badge/UPSTREAM__STARS-154.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 14](https://img.shields.io/badge/OWN__LABS-14-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 17](https://img.shields.io/badge/MERGED__PRs-17-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 4](https://img.shields.io/badge/UPSTREAM__PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.2K](https://img.shields.io/badge/UPSTREAM__STARS-154.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -15,7 +15,7 @@ These 14 labs were each built from scratch and run on a laptop CPU. Every one sh
 | Repository | What it demonstrates |
 | --- | --- |
 | [align-lab](https://github.com/Lesereingrape/align-lab)<br><sub>CPU-only post-training study: SFT vs DPO vs ORPO vs SimPO on a verifiable digit-addition task. Multi-seed; shows DPO/SimPO win-rate climbing to ~0.99 while real generation accuracy collapses (likelihood displacement).</sub> | Four preference-optimisation objectives on one task and one policy: the pair-wise win-rate is a flattering metric that can rise while generation gets worse. |
-| [grpo-repro](https://github.com/Lesereingrape/grpo-repro)<br><sub>A tiny, fully-verifiable GRPO / REINFORCE / DPO comparison lab on a Reverse-Polish-Notation puzzle env. Same policy, same reward, CPU-second ablation with real measured numbers.</sub> | GRPO, REINFORCE and DPO as three arms on identical weights and an identical verifiable reward. With a partial credit given to any legal answer, all three collapse to a degenerate output; the reward shape, not the algorithm, was the bug. |
+| [grpo-repro](https://github.com/Lesereingrape/grpo-repro)<br><sub>A tiny, fully-verifiable GRPO / REINFORCE / DPO comparison lab on a Reverse-Polish-Notation puzzle env. Same policy, same reward, same budget; CPU-measured with per-run wall-clock reported honestly.</sub> | GRPO, REINFORCE and DPO as three arms on identical weights and an identical verifiable reward. With a partial credit given to any legal answer, all three collapse to a degenerate output; the reward shape, not the algorithm, was the bug. |
 | [reward-hacking-lab](https://github.com/Lesereingrape/reward-hacking-lab)<br><sub>CPU-only study of reward-model over-optimisation (Goodharting) in RLHF-style rejection-sampling self-improvement: optimise a verifiable reward and accuracy climbs; optimise a learned reward and the proxy climbs while true accuracy collapses.</sub> | Same loop, two rewards: optimise an exact verifier and true accuracy climbs, optimise a learned proxy and the proxy climbs while accuracy falls. Goodhart on demand, measured. |
 | [starlab](https://github.com/Lesereingrape/starlab)<br><sub>CPU-reproducible STaR self-improvement: a ~100k-param transformer bootstraps column-addition reasoning from its own verifier-checked chains, with a matched-compute control.</sub> | STaR bootstrap: the model samples its own chains, an exact arithmetic verifier filters them, survivors become next round's training set - reported against a matched-compute control so the gain cannot be mistaken for simply training longer. |
 | [data-select-lab](https://github.com/Lesereingrape/data-select-lab)<br><sub>A CPU-only LoRA/PEFT + LESS data-selection study: influence-scored LoRA gradient features pick the few fine-tuning examples that teach a frozen model a held-out capability, with forgetting reported honestly.</sub> | LESS-style LoRA gradient features pick the few dozen examples that teach a frozen model a held-out skill; the same table reports how much of the skill it already had that costs. |
@@ -50,8 +50,8 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.0K | 8 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.3K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.0K | 9 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.4K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.3K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
 
@@ -59,7 +59,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 <summary><b>Merged per month</b></summary>
 
 ```text
-2026-09  ######################################## 16
+2026-09  ######################################## 17
 ```
 
 </details>
@@ -69,6 +69,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-09-25 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5852](https://github.com/bytedance/deer-flow/pull/5852) fix(community): reject bool and fractional web-search max_results like image search does |
 | 2026-09-24 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5607](https://github.com/bytedance/deer-flow/pull/5607) fix(memory): reject a Honcho base_url that can never resolve |
 | 2026-09-24 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [#12905](https://github.com/deepset-ai/haystack/pull/12905) fix(core): compare Ellipsis callable parameters by return type |
 | 2026-09-24 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5821](https://github.com/bytedance/deer-flow/pull/5821) fix(community): fall back to the default SearXNG max_results on an unparseable value |
@@ -89,7 +90,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (49 open pull requests)</b></summary>
+<summary><b>In review right now (54 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -101,13 +102,16 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 2 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
 | [livekit/agents](https://github.com/livekit/agents) | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23191](https://github.com/PrefectHQ/prefect/pull/23191) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 2 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 
 </details>
 
@@ -115,4 +119,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 11:47 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 17:08 UTC.</sub>
