@@ -4,11 +4,11 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 13](https://img.shields.io/badge/OWN__LABS-13-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 16](https://img.shields.io/badge/MERGED__PRs-16-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 4](https://img.shields.io/badge/UPSTREAM__PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.2K](https://img.shields.io/badge/UPSTREAM__STARS-154.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 14](https://img.shields.io/badge/OWN__LABS-14-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 16](https://img.shields.io/badge/MERGED__PRs-16-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 4](https://img.shields.io/badge/UPSTREAM__PROJECTS-4-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 154.2K](https://img.shields.io/badge/UPSTREAM__STARS-154.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
-These 13 labs were each built from scratch and run on a laptop CPU. Every one ships a verifier, multi-seed measurements, and a README whose results table is rendered from a committed JSON by a script the CI byte-compares against, so no number in any of them is hand-typed. The descriptions below are pulled live from each repository, so this table cannot rot either.
+These 14 labs were each built from scratch and run on a laptop CPU. Every one ships a verifier, multi-seed measurements, and a README whose results table is rendered from a committed JSON by a script the CI byte-compares against, so no number in any of them is hand-typed. The descriptions below are pulled live from each repository, so this table cannot rot either.
 
 ### Post-training and alignment
 
@@ -40,6 +40,7 @@ These 13 labs were each built from scratch and run on a laptop CPU. Every one sh
 
 | Repository | What it demonstrates |
 | --- | --- |
+| [llama-anatomy](https://github.com/Lesereingrape/llama-anatomy)<br><sub>From-scratch ~100k-parameter LLaMA decoder (RMSNorm, RoPE, SwiGLU, GQA), plus an equal-parameter ablation of each choice, a train-short/test-long probe of RoPE against learned absolute positions, and a parameter-free sweep of RoPE's rotation base. CPU-only, multi-seed; every README number renders from a committed artifact and CI byte-compares it.</sub> | A LLaMA decoder written from the papers at 10^5 parameters, with every component swapped for an equal-parameter control so a difference is never just size. The rotation-base sweep is the one axis that adds no parameters at all, and it separates a floor its seeds agree on from a ceiling they do not. |
 | [consistency-lab](https://github.com/Lesereingrape/consistency-lab)<br><sub>Adaptive early-stopping self-consistency: a sequential stopping rule that halts CoT sampling once the vote is statistically decided, measured on the accuracy-vs-compute frontier vs fixed-N self-consistency. CPU-only, verifiable.</sub> | A sequential stopping rule for self-consistency: sample chains until the vote is statistically decided, then spend the chains you saved on the questions that are actually contested. |
 | [vlm-distill-bench](https://github.com/Lesereingrape/vlm-distill-bench)<br><sub>Reproducible CPU-only distillation & quantization benchmark for compact vision-language models on procedural mini-CLEVR. Real numbers, committed seeds, no downloads.</sub> | Distillation plus quantisation of a compact vision-language model on procedural mini-CLEVR, including the negative result that temperature-scaled KD can lose to plain cross-entropy at this scale. |
 
@@ -88,12 +89,13 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (42 open pull requests)</b></summary>
+<summary><b>In review right now (47 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 5 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) · [#15231](https://github.com/langflow-ai/langflow/pull/15231) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5 | [#910](https://github.com/TencentCloud/Octop/pull/910) · [#912](https://github.com/TencentCloud/Octop/pull/912) · [#1146](https://github.com/TencentCloud/Octop/pull/1146) · [#1147](https://github.com/TencentCloud/Octop/pull/1147) · [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 4 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) · [#2834](https://github.com/agentscope-ai/agentscope/pull/2834) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
@@ -101,10 +103,10 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23191](https://github.com/PrefectHQ/prefect/pull/23191) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 2 | [#910](https://github.com/TencentCloud/Octop/pull/910) · [#912](https://github.com/TencentCloud/Octop/pull/912) |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#682](https://github.com/andrewyng/openworker/pull/682) |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 
 </details>
 
@@ -112,4 +114,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 05:08 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-25 09:16 UTC.</sub>

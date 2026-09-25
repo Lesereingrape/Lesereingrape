@@ -64,6 +64,10 @@
       "name": "Reasoning and measurement",
       "repos": [
         {
+          "repo": "llama-anatomy",
+          "hook": "A LLaMA decoder written from the papers at 10^5 parameters, with every component swapped for an equal-parameter control so a difference is never just size. The rotation-base sweep is the one axis that adds no parameters at all, and it separates a floor its seeds agree on from a ceiling they do not."
+        },
+        {
           "repo": "consistency-lab",
           "hook": "A sequential stopping rule for self-consistency: sample chains until the vote is statistically decided, then spend the chains you saved on the questions that are actually contested."
         },
