@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 15](https://img.shields.io/badge/OWN__LABS-15-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 18](https://img.shields.io/badge/MERGED__PRs-18-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 5](https://img.shields.io/badge/UPSTREAM__PROJECTS-5-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 170.0K](https://img.shields.io/badge/UPSTREAM__STARS-170.0K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 15](https://img.shields.io/badge/OWN__LABS-15-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 18](https://img.shields.io/badge/MERGED__PRs-18-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 5](https://img.shields.io/badge/UPSTREAM__PROJECTS-5-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 170.1K](https://img.shields.io/badge/UPSTREAM__STARS-170.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -93,7 +93,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (58 open pull requests)</b></summary>
+<summary><b>In review right now (60 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -105,6 +105,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 3 | [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 3 | [#10246](https://github.com/modelscope/ms-swift/pull/10246) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) |
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 2 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
@@ -115,7 +116,6 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 2 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 1 | [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 
 </details>
@@ -124,4 +124,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-26 03:23 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-26 11:21 UTC.</sub>
