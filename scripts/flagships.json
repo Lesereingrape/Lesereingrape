@@ -74,6 +74,10 @@
         {
           "repo": "vlm-distill-bench",
           "hook": "Distillation plus quantisation of a compact vision-language model on procedural mini-CLEVR, including the negative result that temperature-scaled KD can lose to plain cross-entropy at this scale."
+        },
+        {
+          "repo": "system-one-lab",
+          "hook": "Three judges over the same findings, separated only by what they can read: the control that is handed the evidence in its prompt still changes its answer when only the wording moves, and one global temperature turn makes the pooled error smaller by making the honest slice worse."
         }
       ]
     }
