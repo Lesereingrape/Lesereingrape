@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 15](https://img.shields.io/badge/OWN__LABS-15-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 25](https://img.shields.io/badge/MERGED__PRs-25-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 7](https://img.shields.io/badge/UPSTREAM__PROJECTS-7-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 216.5K](https://img.shields.io/badge/UPSTREAM__STARS-216.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 15](https://img.shields.io/badge/OWN__LABS-15-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 25](https://img.shields.io/badge/MERGED__PRs-25-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 7](https://img.shields.io/badge/UPSTREAM__PROJECTS-7-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 216.6K](https://img.shields.io/badge/UPSTREAM__STARS-216.6K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -51,13 +51,13 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.0K | 10 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.1K | 10 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.1K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.5K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.7K | 3 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.4K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.2K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.3K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
 <details>
 <summary><b>Merged per month</b></summary>
@@ -135,4 +135,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-27 16:56 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-27 21:18 UTC.</sub>
