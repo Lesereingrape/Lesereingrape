@@ -57,6 +57,10 @@
         {
           "repo": "hier-memo-agents",
           "hook": "Planner and executor agents over a shared blackboard with citation-linked reuse: memory matched by topic rather than by question, so reuse is transfer and not a cache hit."
+        },
+        {
+          "repo": "research-relay-lab",
+          "hook": "A deer-flow-shaped Planner / Research Team / Reporter pipeline measured at the step nobody evaluates: the reporter handed raw search hits loses no facts at all and still lands near chance, and one notebook slot short of the chain every report cites more hops than its own notebook holds."
         }
       ]
     },
