@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 30](https://img.shields.io/badge/MERGED__PRs-30-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 8](https://img.shields.io/badge/UPSTREAM__PROJECTS-8-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 264.1K](https://img.shields.io/badge/UPSTREAM__STARS-264.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 30](https://img.shields.io/badge/MERGED__PRs-30-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 8](https://img.shields.io/badge/UPSTREAM__PROJECTS-8-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 264.2K](https://img.shields.io/badge/UPSTREAM__STARS-264.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -52,9 +52,9 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.1K | 11 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.1K | 2 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.1K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.2K | 11 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.2K | 2 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.2K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.5K | 2 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.7K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
@@ -109,7 +109,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (56 open pull requests)</b></summary>
+<summary><b>In review right now (57 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -128,6 +128,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [livekit/agents](https://github.com/livekit/agents) | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 2 | [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 1 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 1 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) |
@@ -135,7 +136,6 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 1 | [#3282](https://github.com/zhayujie/CowAgent/pull/3282) |
 
 </details>
 
@@ -143,4 +143,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-28 13:49 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-28 21:13 UTC.</sub>
