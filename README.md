@@ -59,7 +59,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.7K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.4K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.4K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.5K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
 <details>
 <summary><b>Merged per month</b></summary>
@@ -109,7 +109,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (55 open pull requests)</b></summary>
+<summary><b>In review right now (56 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -135,6 +135,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 1 | [#3282](https://github.com/zhayujie/CowAgent/pull/3282) |
 
 </details>
 
@@ -142,4 +143,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-28 10:02 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-28 13:49 UTC.</sub>
