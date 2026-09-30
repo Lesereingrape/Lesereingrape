@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 48](https://img.shields.io/badge/MERGED__PRs-48-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 10](https://img.shields.io/badge/UPSTREAM__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 290.9K](https://img.shields.io/badge/UPSTREAM__STARS-290.9K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 49](https://img.shields.io/badge/MERGED__PRs-49-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 11](https://img.shields.io/badge/UPSTREAM__PROJECTS-11-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 305.5K](https://img.shields.io/badge/UPSTREAM__STARS-305.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -58,16 +58,17 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.6K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 2 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.4K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.2K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.4K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.8K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 5.9K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
 <details>
 <summary><b>Merged per month</b></summary>
 
 ```text
-2026-09  ######################################## 48
+2026-09  ######################################## 49
 ```
 
 </details>
@@ -77,6 +78,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-09-30 | [livekit/agents](https://github.com/livekit/agents) | [#7468](https://github.com/livekit/agents/pull/7468) fix(voice): treat a non-list record_keyterms argument as no change |
 | 2026-09-29 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#427](https://github.com/StarTrail-org/LEANN/pull/427) fix(core): honour an explicit passage ID of 0 and key the offset map by string |
 | 2026-09-29 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3325](https://github.com/zhayujie/CowAgent/pull/3325) fix(cli): remove the temp dir when a repo archive cannot be extracted |
 | 2026-09-29 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3319](https://github.com/zhayujie/CowAgent/pull/3319) fix(cli): overlay the live roster when restoring a backup |
@@ -129,7 +131,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 </details>
 
 <details>
-<summary><b>In review right now (58 open pull requests)</b></summary>
+<summary><b>In review right now (57 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -146,13 +148,13 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
-| [livekit/agents](https://github.com/livekit/agents) | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 2 | [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 1 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 1 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) |
+| [livekit/agents](https://github.com/livekit/agents) | 1 | [#7470](https://github.com/livekit/agents/pull/7470) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 1 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 1 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) |
@@ -163,4 +165,4 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-29 22:12 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-09-30 05:29 UTC.</sub>
