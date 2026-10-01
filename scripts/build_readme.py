@@ -25,12 +25,22 @@ OWNER = (
     or os.environ.get("GITHUB_REPOSITORY_OWNER")
     or "Lesereingrape"
 )
-MIN_STARS = int(os.environ.get("MIN_STARS", "1000"))
+MIN_STARS = int(os.environ.get("MIN_STARS", "10000"))
 API = "https://api.github.com"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = os.path.join(ROOT, "README.md")
 FLAGSHIPS = os.path.join(ROOT, "scripts", "flagships.json")
 STAMP_RE = re.compile(r"record last changed \d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC")
+
+# Organizations that are community or academic groups rather than companies.
+# Individual maintainer accounts need no entry here: the API already reports
+# them as owner type "User". This list only carries the ones that hide behind
+# an organization login, and it is kept because the profile leads with companies.
+COMMUNITY_OWNERS = {
+    "AstrBotDevs",
+    "HKUDS",
+    "StarTrail-org",
+}
 
 _badge = "https://img.shields.io/badge/"
 
@@ -91,8 +101,35 @@ def repo_full(item: dict) -> str:
     return item["repository_url"].split("/repos/", 1)[1]
 
 
+REPOS: dict[str, dict] = {}
+
+
+def repo_doc(full: str) -> dict:
+    """Read an upstream repository once per build.
+
+    The star count and the owner type both steer the layout, so both are taken
+    from the same response: a repository cannot be grouped by one snapshot and
+    labelled by another.
+    """
+    if full not in REPOS:
+        REPOS[full] = get(f"{API}/repos/{full}")
+    return REPOS[full]
+
+
 def stars_for(full: str) -> int:
-    return int(get(f"{API}/repos/{full}").get("stargazers_count") or 0)
+    return int(repo_doc(full).get("stargazers_count") or 0)
+
+
+def solo_for(full: str) -> bool:
+    """True when a repository belongs to a person or a community group.
+
+    The owner type is read from the API rather than inferred from the login, so
+    the page can claim "company-backed" without a hand-kept list going stale.
+    """
+    doc = repo_doc(full)
+    if (doc.get("owner") or {}).get("type") != "Organization":
+        return True
+    return full.split("/", 1)[0] in COMMUNITY_OWNERS
 
 
 def stars_text(n: int) -> str:
@@ -158,19 +195,62 @@ def build_stamp() -> str:
     return parsed.strftime("%Y-%m-%d %H:%M UTC")
 
 
+def pr_table(
+    repos: dict[str, list[dict]], stars: dict[str, int], order: list[str]
+) -> list[str]:
+    rows = ["| Project | Stars | Merged | Pull requests |", "| --- | ---: | ---: | --- |"]
+    for full in order:
+        prs = sorted(repos[full], key=lambda p: p.get("closed_at") or "")
+        links = " · ".join(f"[#{p['number']}]({p['html_url']})" for p in prs)
+        rows.append(
+            f"| [{full}](https://github.com/{full}) | {stars_text(stars[full])} "
+            f"| {len(prs)} | {links} |"
+        )
+    return rows
+
+
 def render(
-    merged: list[dict], open_prs: list[dict], stars: dict[str, int], own: dict
+    merged: list[dict],
+    open_prs: list[dict],
+    stars: dict[str, int],
+    own: dict,
+    solo: set[str],
 ) -> str:
     by_repo: dict[str, list[dict]] = defaultdict(list)
     for pr in merged:
         by_repo[repo_full(pr)].append(pr)
-    shown = {r: v for r, v in by_repo.items() if stars.get(r, 0) >= MIN_STARS}
-    excluded = {r: v for r, v in by_repo.items() if r not in shown}
-    order = sorted(shown, key=lambda r: (-stars[r], r.lower()))
 
-    total = sum(len(v) for v in shown.values())
-    total_stars = sum(stars[r] for r in shown)
-    listed = [p for prs in shown.values() for p in prs]
+    # Two independent facts decide where a repository sits: who owns it, and how
+    # much traffic it carries. A known project owned by a single maintainer is
+    # still shown, just below the companies; the star bar only controls whether
+    # a group is open by default.
+    big = {r: v for r, v in by_repo.items() if stars.get(r, 0) >= MIN_STARS}
+    small = {r: v for r, v in by_repo.items() if r not in big}
+    company = {r: v for r, v in big.items() if r not in solo}
+    community = {r: v for r, v in big.items() if r in solo}
+
+    def by_stars(repos: dict[str, list[dict]]) -> list[str]:
+        return sorted(repos, key=lambda r: (-stars[r], r.lower()))
+
+    def group(repos: dict[str, list[dict]], title: str, note: str) -> None:
+        add("<details>")
+        add(
+            f"<summary><b>{title} ({sum(len(v) for v in repos.values())} pull "
+            f"request(s) in {len(repos)} project(s))</b></summary>"
+        )
+        add("")
+        add(note)
+        add("")
+        lines.extend(pr_table(repos, stars, by_stars(repos)))
+        add("")
+        add("</details>")
+        add("")
+
+    n_all = sum(len(v) for v in by_repo.values())
+    total_stars = sum(stars[r] for r in big)
+    # Every merged PR is listed, including the collapsed groups, so the summary
+    # rows cannot understate the record.
+    listed = [p for prs in by_repo.values() for p in prs]
     spec = load_flagships()
     # Count only what the API confirmed exists and is public, so a partial
     # render can never overstate the total.
@@ -203,9 +283,9 @@ def render(
         + " "
         + badge("OWN LABS", str(n_own), "bc8cff", "flask")
         + " "
-        + badge("MERGED PRs", str(total), "4c8bf5", "github")
+        + badge("MERGED PRs", str(n_all), "4c8bf5", "github")
         + " "
-        + badge("UPSTREAM PROJECTS", str(len(shown)), "3fb950", "package")
+        + badge("COMPANY PROJECTS", str(len(company)), "3fb950", "building")
         + " "
         + badge("UPSTREAM STARS", stars_text(total_stars), "e3b341", "star")
         + "</p>"
@@ -230,23 +310,33 @@ def render(
             add(f"| [{name}]({url})<br><sub>{desc}</sub> | {hook} |")
         add("")
 
-    add("## Pull requests merged upstream")
+    add("## Merged into company-backed projects")
     add("")
     add(
-        f"Projects with {MIN_STARS:,}+ stars that have merged my pull requests "
-        "upstream."
+        f"Repositories run by a company or product organisation, each with "
+        f"{MIN_STARS:,}+ stars, that have merged my pull requests upstream."
     )
     add("")
-    add("| Project | Stars | Merged | Pull requests |")
-    add("| --- | ---: | ---: | --- |")
-    for full in order:
-        prs = sorted(shown[full], key=lambda p: p.get("closed_at") or "")
-        links = " · ".join(f"[#{p['number']}]({p['html_url']})" for p in prs)
-        add(
-            f"| [{full}](https://github.com/{full}) | {stars_text(stars[full])} "
-            f"| {len(prs)} | {links} |"
-        )
+    if company:
+        lines.extend(pr_table(company, stars, by_stars(company)))
+    else:
+        add("No company-backed merge has reached this bar yet.")
     add("")
+
+    if community:
+        group(
+            community,
+            "Merged into community and individual-maintainer projects",
+            f"Also {MIN_STARS:,}+ stars, but owned by a solo maintainer or an "
+            "academic / community group rather than a company.",
+        )
+
+    if small:
+        group(
+            small,
+            f"Merged into projects under {MIN_STARS:,} stars",
+            f"Real merges, below the {MIN_STARS:,} star bar of the tables above.",
+        )
 
     months = Counter(month_of(p["closed_at"]) for p in listed if p.get("closed_at"))
     add("<details>")
@@ -301,15 +391,6 @@ def render(
         add("</details>")
         add("")
 
-    if excluded:
-        n_ex = sum(len(v) for v in excluded.values())
-        repos_word = "repository" if len(excluded) == 1 else "repositories"
-        add(
-            f"<sub>Plus {n_ex} merged pull request(s) in {len(excluded)} smaller "
-            f"{repos_word}, below the {MIN_STARS:,} star bar of this table.</sub>"
-        )
-        add("")
-
     add("---")
     add("")
     add(
@@ -352,11 +433,16 @@ def main() -> int:
     ]
     repos = {repo_full(p) for p in merged}
     stars: dict[str, int] = {}
+    # A repository whose metadata cannot be read stays out of the company table:
+    # a failed lookup must never buy a project a prominent listing.
+    solo: set[str] = set(repos)
     for full in sorted(repos):
         try:
             stars[full] = stars_for(full)
+            if not solo_for(full):
+                solo.discard(full)
         except Exception as exc:  # noqa: BLE001 - keep the page buildable
-            print(f"warn: no stars for {full}: {exc}", file=sys.stderr)
+            print(f"warn: no metadata for {full}: {exc}", file=sys.stderr)
             stars[full] = 0
     own, problems = fetch_own(names)
     if not merged and "--force" not in sys.argv:
@@ -372,7 +458,7 @@ def main() -> int:
         raise SystemExit("refusing to render: the lab list does not verify")
     for line in problems:
         print(f"warn: {line}", file=sys.stderr)
-    body = render(merged, open_prs, stars, own)
+    body = render(merged, open_prs, stars, own, solo)
     print(
         f"merged={len(merged)} open={len(open_prs)} repos={len(repos)} "
         f"labs={len(own)}",
