@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 56](https://img.shields.io/badge/MERGED__PRs-56-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![UPSTREAM PROJECTS 12](https://img.shields.io/badge/UPSTREAM__PROJECTS-12-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=package&logoColor=white) ![UPSTREAM STARS 324.5K](https://img.shields.io/badge/UPSTREAM__STARS-324.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 57](https://img.shields.io/badge/MERGED__PRs-57-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 6](https://img.shields.io/badge/COMPANY__PROJECTS-6-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 318.3K](https://img.shields.io/badge/UPSTREAM__STARS-318.3K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -46,29 +46,51 @@ These 16 labs were each built from scratch and run on a laptop CPU. Every one is
 | [vlm-distill-bench](https://github.com/Lesereingrape/vlm-distill-bench)<br><sub>Reproducible CPU-only distillation & quantization benchmark for compact vision-language models on procedural mini-CLEVR. Real numbers, committed seeds, no downloads.</sub> | Distillation plus quantisation of a compact vision-language model on procedural mini-CLEVR, including the negative result that temperature-scaled KD can lose to plain cross-entropy at this scale. |
 | [system-one-lab](https://github.com/Lesereingrape/system-one-lab)<br><sub>CPU-only, multi-seed measurement of what an agent decision layer is sensitive to: a typed Choice/Score/Noul judge vs a prose judge vs a prompt-flattened control, on synthetic findings with an exact verifier.</sub> | Three judges over the same findings, separated only by what they can read: the control that is handed the evidence in its prompt still changes its answer when only the wording moves, and one global temperature turn makes the pooled error smaller by making the honest slice worse. |
 
-## Pull requests merged upstream
+## Merged into company-backed projects
 
-Projects with 1,000+ stars that have merged my pull requests upstream.
+Repositories run by a company or product organisation, each with 10,000+ stars, that have merged my pull requests upstream.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.3K | 14 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) · [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5960](https://github.com/bytedance/deer-flow/pull/5960) · [#6067](https://github.com/bytedance/deer-flow/pull/6067) |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.2K | 19 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) · [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3289](https://github.com/zhayujie/CowAgent/pull/3289) · [#3291](https://github.com/zhayujie/CowAgent/pull/3291) · [#3293](https://github.com/zhayujie/CowAgent/pull/3293) · [#3299](https://github.com/zhayujie/CowAgent/pull/3299) · [#3296](https://github.com/zhayujie/CowAgent/pull/3296) · [#3303](https://github.com/zhayujie/CowAgent/pull/3303) · [#3305](https://github.com/zhayujie/CowAgent/pull/3305) · [#3312](https://github.com/zhayujie/CowAgent/pull/3312) · [#3314](https://github.com/zhayujie/CowAgent/pull/3314) · [#3316](https://github.com/zhayujie/CowAgent/pull/3316) · [#3321](https://github.com/zhayujie/CowAgent/pull/3321) · [#3319](https://github.com/zhayujie/CowAgent/pull/3319) · [#3325](https://github.com/zhayujie/CowAgent/pull/3325) · [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.3K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.6K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 18.4K | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.4K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.2K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
+
+<details>
+<summary><b>Merged into community and individual-maintainer projects (28 pull request(s) in 5 project(s))</b></summary>
+
+Also 10,000+ stars, but owned by a solo maintainer or an academic / community group rather than a company.
+
+| Project | Stars | Merged | Pull requests |
+| --- | ---: | ---: | --- |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.2K | 19 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) · [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3289](https://github.com/zhayujie/CowAgent/pull/3289) · [#3291](https://github.com/zhayujie/CowAgent/pull/3291) · [#3293](https://github.com/zhayujie/CowAgent/pull/3293) · [#3299](https://github.com/zhayujie/CowAgent/pull/3299) · [#3296](https://github.com/zhayujie/CowAgent/pull/3296) · [#3303](https://github.com/zhayujie/CowAgent/pull/3303) · [#3305](https://github.com/zhayujie/CowAgent/pull/3305) · [#3312](https://github.com/zhayujie/CowAgent/pull/3312) · [#3314](https://github.com/zhayujie/CowAgent/pull/3314) · [#3316](https://github.com/zhayujie/CowAgent/pull/3316) · [#3321](https://github.com/zhayujie/CowAgent/pull/3321) · [#3319](https://github.com/zhayujie/CowAgent/pull/3319) · [#3325](https://github.com/zhayujie/CowAgent/pull/3325) · [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.3K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 18.4K | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.4K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
+
+</details>
+
+<details>
+<summary><b>Merged into projects under 10,000 stars (2 pull request(s) in 2 project(s))</b></summary>
+
+Real merges, below the 10,000 star bar of the tables above.
+
+| Project | Stars | Merged | Pull requests |
+| --- | ---: | ---: | --- |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6.2K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | 0 | 1 | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) |
+
+</details>
 
 <details>
 <summary><b>Merged per month</b></summary>
 
 ```text
+2026-02  #                                        1
 2026-09  ######################################## 53
 2026-10  ##                                       3
 ```
@@ -136,6 +158,7 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 | 2026-09-21 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) fix(installer): keep IPv6 brackets in generated transport URLs |
 | 2026-09-21 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) fix(installer): let --uninstall run when IDA Free is installed |
 | 2026-09-20 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#5555](https://github.com/bytedance/deer-flow/pull/5555) fix(memory): report malformed backend_config values by key name |
+| 2026-02-12 | [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) feat(routing): enhance robust optimizer with learning strategy |
 
 </details>
 
@@ -167,8 +190,6 @@ Projects with 1,000+ stars that have merged my pull requests upstream.
 
 </details>
 
-<sub>Plus 1 merged pull request(s) in 1 smaller repository, below the 1,000 star bar of this table.</sub>
-
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-01 14:32 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-01 15:50 UTC.</sub>
