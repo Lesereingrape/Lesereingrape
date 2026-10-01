@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 57](https://img.shields.io/badge/MERGED__PRs-57-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 6](https://img.shields.io/badge/COMPANY__PROJECTS-6-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 318.3K](https://img.shields.io/badge/UPSTREAM__STARS-318.3K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 59](https://img.shields.io/badge/MERGED__PRs-59-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 6](https://img.shields.io/badge/COMPANY__PROJECTS-6-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 318.3K](https://img.shields.io/badge/UPSTREAM__STARS-318.3K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -75,13 +75,14 @@ Also 10,000+ stars, but owned by a solo maintainer or an academic / community gr
 </details>
 
 <details>
-<summary><b>Merged into projects under 10,000 stars (2 pull request(s) in 2 project(s))</b></summary>
+<summary><b>Merged into projects under 10,000 stars (4 pull request(s) in 3 project(s))</b></summary>
 
 Real merges, below the 10,000 star bar of the tables above.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6.2K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 3.1K | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | 0 | 1 | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) |
 
 </details>
@@ -92,7 +93,7 @@ Real merges, below the 10,000 star bar of the tables above.
 ```text
 2026-02  #                                        1
 2026-09  ######################################## 53
-2026-10  ##                                       3
+2026-10  ####                                     5
 ```
 
 </details>
@@ -102,6 +103,8 @@ Real merges, below the 10,000 star bar of the tables above.
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-10-01 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) fix(api): bound transcribe_audio's ffmpeg calls with QWEN_MM_FFMPEG_TIMEOUT |
+| 2026-10-01 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) fix(blender,freecad): keep a blank port in the config from killing the server |
 | 2026-10-01 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3344](https://github.com/zhayujie/CowAgent/pull/3344) fix(env_config): refuse entries that would split into extra .env lines |
 | 2026-10-01 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3332](https://github.com/zhayujie/CowAgent/pull/3332) fix(knowledge): keep graph node paths slash-separated on Windows |
 | 2026-10-01 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6067](https://github.com/bytedance/deer-flow/pull/6067) fix(channels): split Telegram messages by UTF-16 code units, not code points |
@@ -163,7 +166,7 @@ Real merges, below the 10,000 star bar of the tables above.
 </details>
 
 <details>
-<summary><b>In review right now (50 open pull requests)</b></summary>
+<summary><b>In review right now (48 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -178,7 +181,6 @@ Real merges, below the 10,000 star bar of the tables above.
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
-| [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 1 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 1 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) |
@@ -192,4 +194,4 @@ Real merges, below the 10,000 star bar of the tables above.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-01 15:50 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-01 18:24 UTC.</sub>
