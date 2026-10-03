@@ -175,7 +175,7 @@ Real merges, below the 10,000 star bar of the tables above.
 </details>
 
 <details>
-<summary><b>In review right now (63 open pull requests)</b></summary>
+<summary><b>In review right now (65 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -189,6 +189,7 @@ Real merges, below the 10,000 star bar of the tables above.
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 2 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) · [#10364](https://github.com/AstrBotDevs/AstrBot/pull/10364) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 2 | [#6252](https://github.com/bytedance/deer-flow/pull/6252) · [#6253](https://github.com/bytedance/deer-flow/pull/6253) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#13084](https://github.com/deepset-ai/haystack/pull/13084) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
@@ -197,16 +198,15 @@ Real merges, below the 10,000 star bar of the tables above.
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 2 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 2 | [#1323](https://github.com/neuml/txtai/pull/1323) · [#1325](https://github.com/neuml/txtai/pull/1325) |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#88](https://github.com/QwenLM/Qwen-MM-Plugins/pull/88) · [#90](https://github.com/QwenLM/Qwen-MM-Plugins/pull/90) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 2 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) · [#430](https://github.com/StarTrail-org/LEANN/pull/430) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 1 | [#6252](https://github.com/bytedance/deer-flow/pull/6252) |
 | [livekit/agents](https://github.com/livekit/agents) | 1 | [#7470](https://github.com/livekit/agents/pull/7470) |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 1 | [#3514](https://github.com/zhayujie/CowAgent/pull/3514) |
 
 </details>
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-03 21:11 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-03 23:45 UTC.</sub>
