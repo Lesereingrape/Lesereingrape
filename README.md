@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 62](https://img.shields.io/badge/MERGED__PRs-62-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 7](https://img.shields.io/badge/COMPANY__PROJECTS-7-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 332.4K](https://img.shields.io/badge/UPSTREAM__STARS-332.4K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 62](https://img.shields.io/badge/MERGED__PRs-62-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 7](https://img.shields.io/badge/COMPANY__PROJECTS-7-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 332.5K](https://img.shields.io/badge/UPSTREAM__STARS-332.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -56,7 +56,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.7K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
-| [livekit/agents](https://github.com/livekit/agents) | 14.4K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.5K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 13.9K | 1 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.2K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 
@@ -170,7 +170,7 @@ Real merges, below the 10,000 star bar of the tables above.
 </details>
 
 <details>
-<summary><b>In review right now (54 open pull requests)</b></summary>
+<summary><b>In review right now (57 open pull requests)</b></summary>
 
 | Project | Open | Pull requests |
 | --- | ---: | --- |
@@ -183,15 +183,16 @@ Real merges, below the 10,000 star bar of the tables above.
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 3 | [#4553](https://github.com/strands-agents/harness-sdk/pull/4553) · [#4554](https://github.com/strands-agents/harness-sdk/pull/4554) · [#4591](https://github.com/strands-agents/harness-sdk/pull/4591) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 2 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) · [#13084](https://github.com/deepset-ai/haystack/pull/13084) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 2 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) |
+| [neuml/txtai](https://github.com/neuml/txtai) | 2 | [#1323](https://github.com/neuml/txtai/pull/1323) · [#1325](https://github.com/neuml/txtai/pull/1325) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 2 | [#88](https://github.com/QwenLM/Qwen-MM-Plugins/pull/88) · [#90](https://github.com/QwenLM/Qwen-MM-Plugins/pull/90) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 2 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) · [#430](https://github.com/StarTrail-org/LEANN/pull/430) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 1 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 1 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) |
 | [livekit/agents](https://github.com/livekit/agents) | 1 | [#7470](https://github.com/livekit/agents/pull/7470) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 1 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 1 | [#3450](https://github.com/zhayujie/CowAgent/pull/3450) |
@@ -200,4 +201,4 @@ Real merges, below the 10,000 star bar of the tables above.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-02 17:51 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-03 05:15 UTC.</sub>
