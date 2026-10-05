@@ -57,7 +57,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [locustio/locust](https://github.com/locustio/locust) | 28.2K | 5 | [#3528](https://github.com/locustio/locust/pull/3528) · [#3534](https://github.com/locustio/locust/pull/3534) · [#3536](https://github.com/locustio/locust/pull/3536) · [#3538](https://github.com/locustio/locust/pull/3538) · [#3530](https://github.com/locustio/locust/pull/3530) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.6K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
-| [livekit/agents](https://github.com/livekit/agents) | 14.5K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.6K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 13.9K | 1 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.3K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
@@ -84,7 +84,7 @@ Real merges, below the 10,000 star bar of the tables above.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6.7K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 6.8K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 3.1K | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | 0 | 1 | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) |
 
@@ -214,4 +214,4 @@ Real merges, below the 10,000 star bar of the tables above.
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-04 23:56 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-05 05:34 UTC.</sub>
