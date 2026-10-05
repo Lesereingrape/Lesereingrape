@@ -372,14 +372,21 @@ def render(
     add("")
 
     live: dict[str, list[dict]] = defaultdict(list)
+    withheld = 0
     for pr in open_prs:
+        # A draft is a pull request I am not asking anyone to review, so it stays
+        # off the table and the heading says how many were left out.
+        if pr.get("draft"):
+            withheld += 1
+            continue
         live[repo_full(pr)].append(pr)
     if live:
+        shown = sum(len(v) for v in live.values())
+        label = f"{shown} open pull request" + ("s" if shown != 1 else "")
+        if withheld:
+            label += f", {withheld} held as draft"
         add("<details>")
-        add(
-            f"<summary><b>In review right now ({sum(len(v) for v in live.values())} "
-            "open pull requests)</b></summary>"
-        )
+        add(f"<summary><b>In review right now ({label})</b></summary>")
         add("")
         add("| Project | Open | Pull requests |")
         add("| --- | ---: | --- |")
