@@ -184,33 +184,42 @@ Real merges, below the 10,000 star bar of the tables above.
 
 </details>
 
-<details>
-<summary><b>In review right now (49 open pull requests, 9 held as draft)</b></summary>
+## In review right now
 
-| Project | Open | Pull requests |
-| --- | ---: | --- |
-| [agno-agi/agno](https://github.com/agno-agi/agno) | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
-| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 2 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) · [#10364](https://github.com/AstrBotDevs/AstrBot/pull/10364) |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
-| [livekit/agents](https://github.com/livekit/agents) | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
-| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 2 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) · [#430](https://github.com/StarTrail-org/LEANN/pull/430) |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 1 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) |
-| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 1 | [#2674](https://github.com/MemPalace/mempalace/pull/2674) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 1 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
+49 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Company-backed projects above 10,000 stars come first; every other open pull request stays listed, just below them.
+
+| Project | Stars | Open | Pull requests |
+| --- | ---: | ---: | --- |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.5K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 117.2K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
+| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.4K | 1 | [#2674](https://github.com/MemPalace/mempalace/pull/2674) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59.4K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.4K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | 42.6K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.8K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 1 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 24.0K | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.6K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.6K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.6K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 13.9K | 1 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
+
+<details>
+<summary><b>Open in community and individual-maintainer projects (12 pull request(s) in 5 project(s))</b></summary>
+
+Also 10,000+ stars, but owned by a solo maintainer or an academic / community group rather than a company.
+
+| Project | Stars | Open | Pull requests |
+| --- | ---: | ---: | --- |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 48.8K | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.4K | 2 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) · [#10364](https://github.com/AstrBotDevs/AstrBot/pull/10364) |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40.0K | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
+| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 2 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) · [#430](https://github.com/StarTrail-org/LEANN/pull/430) |
+| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.5K | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
 
 </details>
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-05 14:32 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-05 15:10 UTC.</sub>

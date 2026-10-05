@@ -16,6 +16,8 @@ import os
 import re
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
@@ -61,6 +63,27 @@ TOKEN = _token()
 
 
 def get(url: str):
+    """Fetch an API document, retrying a dropped connection.
+
+    A connection that dies mid-handshake is a network flake, not a missing
+    repository. Without a retry one flake reads as "no metadata", which sinks a
+    real company project to the bottom of the page and understates the totals.
+    """
+    for attempt in range(3):
+        try:
+            return _get(url)
+        except urllib.error.HTTPError:
+            # A status code is an answer; only a lost connection is retried.
+            raise
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if attempt == 2:
+                raise
+            print(f"retry {attempt + 1}: {url}: {exc}", file=sys.stderr)
+            time.sleep(2 * (attempt + 1))
+    raise AssertionError("unreachable")
+
+
+def _get(url: str):
     req = urllib.request.Request(
         url,
         headers={
@@ -209,6 +232,18 @@ def pr_table(
     return rows
 
 
+def open_pr_table(repos: dict[str, list[dict]], stars: dict[str, int], order: list[str]) -> list[str]:
+    rows = ["| Project | Stars | Open | Pull requests |", "| --- | ---: | ---: | --- |"]
+    for full in order:
+        prs = sorted(repos[full], key=lambda p: p["number"])
+        links = " · ".join(f"[#{p['number']}]({p['html_url']})" for p in prs)
+        rows.append(
+            f"| [{full}](https://github.com/{full}) | {stars_text(stars[full])} "
+            f"| {len(prs)} | {links} |"
+        )
+    return rows
+
+
 def render(
     merged: list[dict],
     open_prs: list[dict],
@@ -232,7 +267,12 @@ def render(
     def by_stars(repos: dict[str, list[dict]]) -> list[str]:
         return sorted(repos, key=lambda r: (-stars[r], r.lower()))
 
-    def group(repos: dict[str, list[dict]], title: str, note: str) -> None:
+    def group(
+        repos: dict[str, list[dict]],
+        title: str,
+        note: str,
+        table=pr_table,
+    ) -> None:
         add("<details>")
         add(
             f"<summary><b>{title} ({sum(len(v) for v in repos.values())} pull "
@@ -241,7 +281,7 @@ def render(
         add("")
         add(note)
         add("")
-        lines.extend(pr_table(repos, stars, by_stars(repos)))
+        lines.extend(table(repos, stars, by_stars(repos)))
         add("")
         add("</details>")
         add("")
@@ -382,21 +422,43 @@ def render(
         live[repo_full(pr)].append(pr)
     if live:
         shown = sum(len(v) for v in live.values())
-        label = f"{shown} open pull request" + ("s" if shown != 1 else "")
-        if withheld:
-            label += f", {withheld} held as draft"
-        add("<details>")
-        add(f"<summary><b>In review right now ({label})</b></summary>")
+        review_big = {r: v for r, v in live.items() if stars.get(r, 0) >= MIN_STARS}
+        review_company = {r: v for r, v in review_big.items() if r not in solo}
+        review_community = {r: v for r, v in review_big.items() if r in solo}
+        review_small = {r: v for r, v in live.items() if r not in review_big}
+
+        add("## In review right now")
         add("")
-        add("| Project | Open | Pull requests |")
-        add("| --- | ---: | --- |")
-        for full in sorted(live, key=lambda r: (-len(live[r]), r.lower())):
-            prs = sorted(live[full], key=lambda p: p["number"])
-            links = " · ".join(f"[#{p['number']}]({p['html_url']})" for p in prs)
-            add(f"| [{full}](https://github.com/{full}) | {len(prs)} | {links} |")
+        add(
+            f"{shown} open pull request{'s' if shown != 1 else ''} of mine are "
+            "waiting on a maintainer"
+            + (f" ({withheld} more held back as draft)" if withheld else "")
+            + f". Company-backed projects above {MIN_STARS:,} stars come first; "
+            "every other open pull request stays listed, just below them."
+        )
         add("")
-        add("</details>")
+        if review_company:
+            lines.extend(open_pr_table(review_company, stars, by_stars(review_company)))
+        else:
+            add("No open pull request sits in a company-backed project yet.")
         add("")
+
+        if review_community:
+            group(
+                review_community,
+                "Open in community and individual-maintainer projects",
+                f"Also {MIN_STARS:,}+ stars, but owned by a solo maintainer or an "
+                "academic / community group rather than a company.",
+                table=open_pr_table,
+            )
+        if review_small:
+            group(
+                review_small,
+                f"Open in projects under {MIN_STARS:,} stars",
+                "Earlier work still in review, below the "
+                f"{MIN_STARS:,} star bar of the tables above.",
+                table=open_pr_table,
+            )
 
     add("---")
     add("")
@@ -438,7 +500,9 @@ def main() -> int:
         for p in search(f"is:pr is:open author:{OWNER}")
         if not repo_full(p).startswith(f"{OWNER}/")
     ]
-    repos = {repo_full(p) for p in merged}
+    # Open pull requests are tiered by the same two facts as merged ones, so the
+    # projects still waiting upstream have to be classified too.
+    repos = {repo_full(p) for p in merged} | {repo_full(p) for p in open_prs}
     stars: dict[str, int] = {}
     # A repository whose metadata cannot be read stays out of the company table:
     # a failed lookup must never buy a project a prominent listing.
