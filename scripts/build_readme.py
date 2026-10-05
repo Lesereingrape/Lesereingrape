@@ -11,6 +11,7 @@ local runs.
 from __future__ import annotations
 
 import datetime as dt
+import http.client
 import json
 import os
 import re
@@ -65,9 +66,10 @@ TOKEN = _token()
 def get(url: str):
     """Fetch an API document, retrying a dropped connection.
 
-    A connection that dies mid-handshake is a network flake, not a missing
-    repository. Without a retry one flake reads as "no metadata", which sinks a
-    real company project to the bottom of the page and understates the totals.
+    A connection that dies partway through a request is a network flake, not a
+    missing repository. Without a retry one flake reads as "no metadata", which
+    sinks a real company project to the bottom of the page and understates the
+    totals.
     """
     for attempt in range(3):
         try:
@@ -75,7 +77,14 @@ def get(url: str):
         except urllib.error.HTTPError:
             # A status code is an answer; only a lost connection is retried.
             raise
-        except (urllib.error.URLError, TimeoutError) as exc:
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            ConnectionError,
+            http.client.HTTPException,
+        ) as exc:
+            # A reset can surface while the body is still being read, so the
+            # transport error is not always the one urllib raises for me.
             if attempt == 2:
                 raise
             print(f"retry {attempt + 1}: {url}: {exc}", file=sys.stderr)
