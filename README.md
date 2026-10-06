@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 76](https://img.shields.io/badge/MERGED__PRs-76-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 9](https://img.shields.io/badge/COMPANY__PROJECTS-9-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 374.4K](https://img.shields.io/badge/UPSTREAM__STARS-374.4K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 76](https://img.shields.io/badge/MERGED__PRs-76-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 9](https://img.shields.io/badge/COMPANY__PROJECTS-9-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 374.5K](https://img.shields.io/badge/UPSTREAM__STARS-374.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -69,7 +69,7 @@ Also 10,000+ stars, but owned by a solo maintainer or an academic / community gr
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.2K | 21 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) · [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3289](https://github.com/zhayujie/CowAgent/pull/3289) · [#3291](https://github.com/zhayujie/CowAgent/pull/3291) · [#3293](https://github.com/zhayujie/CowAgent/pull/3293) · [#3299](https://github.com/zhayujie/CowAgent/pull/3299) · [#3296](https://github.com/zhayujie/CowAgent/pull/3296) · [#3303](https://github.com/zhayujie/CowAgent/pull/3303) · [#3305](https://github.com/zhayujie/CowAgent/pull/3305) · [#3312](https://github.com/zhayujie/CowAgent/pull/3312) · [#3314](https://github.com/zhayujie/CowAgent/pull/3314) · [#3316](https://github.com/zhayujie/CowAgent/pull/3316) · [#3321](https://github.com/zhayujie/CowAgent/pull/3321) · [#3319](https://github.com/zhayujie/CowAgent/pull/3319) · [#3325](https://github.com/zhayujie/CowAgent/pull/3325) · [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) · [#3450](https://github.com/zhayujie/CowAgent/pull/3450) · [#3514](https://github.com/zhayujie/CowAgent/pull/3514) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.3K | 21 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) · [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3289](https://github.com/zhayujie/CowAgent/pull/3289) · [#3291](https://github.com/zhayujie/CowAgent/pull/3291) · [#3293](https://github.com/zhayujie/CowAgent/pull/3293) · [#3299](https://github.com/zhayujie/CowAgent/pull/3299) · [#3296](https://github.com/zhayujie/CowAgent/pull/3296) · [#3303](https://github.com/zhayujie/CowAgent/pull/3303) · [#3305](https://github.com/zhayujie/CowAgent/pull/3305) · [#3312](https://github.com/zhayujie/CowAgent/pull/3312) · [#3314](https://github.com/zhayujie/CowAgent/pull/3314) · [#3316](https://github.com/zhayujie/CowAgent/pull/3316) · [#3321](https://github.com/zhayujie/CowAgent/pull/3321) · [#3319](https://github.com/zhayujie/CowAgent/pull/3319) · [#3325](https://github.com/zhayujie/CowAgent/pull/3325) · [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) · [#3450](https://github.com/zhayujie/CowAgent/pull/3450) · [#3514](https://github.com/zhayujie/CowAgent/pull/3514) |
 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.5K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 18.4K | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
@@ -84,7 +84,7 @@ Real merges, below the 10,000 star bar of the tables above.
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 7.3K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 7.4K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 3.1K | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
 | [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | 0 | 1 | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) |
 
@@ -223,4 +223,4 @@ Also 10,000+ stars, but owned by a solo maintainer or an academic / community gr
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-06 13:21 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-06 20:17 UTC.</sub>
