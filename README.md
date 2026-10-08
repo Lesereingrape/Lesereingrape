@@ -53,7 +53,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.5K | 20 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) · [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5960](https://github.com/bytedance/deer-flow/pull/5960) · [#6067](https://github.com/bytedance/deer-flow/pull/6067) · [#6174](https://github.com/bytedance/deer-flow/pull/6174) · [#6175](https://github.com/bytedance/deer-flow/pull/6175) · [#6252](https://github.com/bytedance/deer-flow/pull/6252) · [#6253](https://github.com/bytedance/deer-flow/pull/6253) · [#6274](https://github.com/bytedance/deer-flow/pull/6274) · [#6338](https://github.com/bytedance/deer-flow/pull/6338) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.8K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.9K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [locustio/locust](https://github.com/locustio/locust) | 28.2K | 5 | [#3528](https://github.com/locustio/locust/pull/3528) · [#3534](https://github.com/locustio/locust/pull/3534) · [#3536](https://github.com/locustio/locust/pull/3536) · [#3538](https://github.com/locustio/locust/pull/3538) · [#3530](https://github.com/locustio/locust/pull/3530) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
@@ -62,33 +62,8 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.3K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 
-<details>
-<summary><b>Merged into community and individual-maintainer projects (30 pull request(s) in 5 project(s))</b></summary>
+**Also merged, kept off the featured tables:** 34 pull requests across 8 projects &mdash; `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`, `TencentCloud/Octop`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
-Also 10,000+ stars, but owned by a solo maintainer or an academic / community group rather than a company.
-
-| Project | Stars | Merged | Pull requests |
-| --- | ---: | ---: | --- |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47.3K | 21 | [#3247](https://github.com/zhayujie/CowAgent/pull/3247) · [#3248](https://github.com/zhayujie/CowAgent/pull/3248) · [#3284](https://github.com/zhayujie/CowAgent/pull/3284) · [#3282](https://github.com/zhayujie/CowAgent/pull/3282) · [#3289](https://github.com/zhayujie/CowAgent/pull/3289) · [#3291](https://github.com/zhayujie/CowAgent/pull/3291) · [#3293](https://github.com/zhayujie/CowAgent/pull/3293) · [#3299](https://github.com/zhayujie/CowAgent/pull/3299) · [#3296](https://github.com/zhayujie/CowAgent/pull/3296) · [#3303](https://github.com/zhayujie/CowAgent/pull/3303) · [#3305](https://github.com/zhayujie/CowAgent/pull/3305) · [#3312](https://github.com/zhayujie/CowAgent/pull/3312) · [#3314](https://github.com/zhayujie/CowAgent/pull/3314) · [#3316](https://github.com/zhayujie/CowAgent/pull/3316) · [#3321](https://github.com/zhayujie/CowAgent/pull/3321) · [#3319](https://github.com/zhayujie/CowAgent/pull/3319) · [#3325](https://github.com/zhayujie/CowAgent/pull/3325) · [#3332](https://github.com/zhayujie/CowAgent/pull/3332) · [#3344](https://github.com/zhayujie/CowAgent/pull/3344) · [#3450](https://github.com/zhayujie/CowAgent/pull/3450) · [#3514](https://github.com/zhayujie/CowAgent/pull/3514) |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.5K | 3 | [#10229](https://github.com/AstrBotDevs/AstrBot/pull/10229) · [#10231](https://github.com/AstrBotDevs/AstrBot/pull/10231) · [#10248](https://github.com/AstrBotDevs/AstrBot/pull/10248) |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 18.5K | 1 | [#690](https://github.com/andrewyng/openworker/pull/690) |
-| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 1 | [#427](https://github.com/StarTrail-org/LEANN/pull/427) |
-| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.5K | 4 | [#531](https://github.com/mrexodia/ida-pro-mcp/pull/531) · [#529](https://github.com/mrexodia/ida-pro-mcp/pull/529) · [#533](https://github.com/mrexodia/ida-pro-mcp/pull/533) · [#539](https://github.com/mrexodia/ida-pro-mcp/pull/539) |
-
-</details>
-
-<details>
-<summary><b>Merged into projects under 10,000 stars (4 pull request(s) in 3 project(s))</b></summary>
-
-Real merges, below the 10,000 star bar of the tables above.
-
-| Project | Stars | Merged | Pull requests |
-| --- | ---: | ---: | --- |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 7.7K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
-| [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | 3.1K | 2 | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) · [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) |
-| [iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings) | 0 | 1 | [#1](https://github.com/iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings/pull/1) |
-
-</details>
 
 <details>
 <summary><b>Merged per month</b></summary>
@@ -187,7 +162,7 @@ Real merges, below the 10,000 star bar of the tables above.
 
 ## In review right now
 
-49 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Company-backed projects above 10,000 stars come first; every other open pull request stays listed, just below them.
+49 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
@@ -197,7 +172,7 @@ Real merges, below the 10,000 star bar of the tables above.
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59.4K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.4K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 42.6K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.8K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32.9K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 1 | [#12813](https://github.com/deepset-ai/haystack/pull/12813) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 24.0K | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.6K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
@@ -206,21 +181,9 @@ Real merges, below the 10,000 star bar of the tables above.
 | [livekit/agents](https://github.com/livekit/agents) | 14.6K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.0K | 1 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
 
-<details>
-<summary><b>Open in community and individual-maintainer projects (12 pull request(s) in 5 project(s))</b></summary>
+**Also open, kept off the featured tables:** 12 pull requests across 5 projects &mdash; `HKUDS/nanobot`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
-Also 10,000+ stars, but owned by a solo maintainer or an academic / community group rather than a company.
-
-| Project | Stars | Open | Pull requests |
-| --- | ---: | ---: | --- |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 48.8K | 2 | [#5913](https://github.com/HKUDS/nanobot/pull/5913) · [#5914](https://github.com/HKUDS/nanobot/pull/5914) |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 41.5K | 2 | [#10286](https://github.com/AstrBotDevs/AstrBot/pull/10286) · [#10364](https://github.com/AstrBotDevs/AstrBot/pull/10364) |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40.0K | 2 | [#4097](https://github.com/HKUDS/LightRAG/pull/4097) · [#4098](https://github.com/HKUDS/LightRAG/pull/4098) |
-| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 13.0K | 2 | [#428](https://github.com/StarTrail-org/LEANN/pull/428) · [#430](https://github.com/StarTrail-org/LEANN/pull/430) |
-| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 12.5K | 4 | [#537](https://github.com/mrexodia/ida-pro-mcp/pull/537) · [#541](https://github.com/mrexodia/ida-pro-mcp/pull/541) · [#542](https://github.com/mrexodia/ida-pro-mcp/pull/542) · [#543](https://github.com/mrexodia/ida-pro-mcp/pull/543) |
-
-</details>
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-07 18:56 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-08 00:57 UTC.</sub>

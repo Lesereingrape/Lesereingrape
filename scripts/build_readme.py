@@ -276,29 +276,28 @@ def render(
     def by_stars(repos: dict[str, list[dict]]) -> list[str]:
         return sorted(repos, key=lambda r: (-stars[r], r.lower()))
 
-    def group(
-        repos: dict[str, list[dict]],
-        title: str,
-        note: str,
-        table=pr_table,
-    ) -> None:
-        add("<details>")
-        add(
-            f"<summary><b>{title} ({sum(len(v) for v in repos.values())} pull "
-            f"request(s) in {len(repos)} project(s))</b></summary>"
-        )
-        add("")
-        add(note)
-        add("")
-        lines.extend(table(repos, stars, by_stars(repos)))
-        add("")
-        add("</details>")
-        add("")
+    def aside(repos: dict[str, list[dict]], verb: str) -> list[str]:
+        """One sentence for every project outside the company-backed tables.
+
+        The page leads with enterprise-grade work only: a non-company repository
+        is named and counted here, never given a pull-request table of its own.
+        """
+        n = sum(len(v) for v in repos.values())
+        projects = len(repos)
+        names = ", ".join(f"`{r}`" for r in by_stars(repos))
+        return [
+            f"**{verb}, kept off the featured tables:** {n} pull request"
+            f"{'s' if n != 1 else ''} across {projects} project"
+            f"{'s' if projects != 1 else ''} &mdash; {names}. "
+            f"Company-backed work above {MIN_STARS:,} stars is what this page "
+            "features; this line exists so the totals still add up.",
+            "",
+        ]
 
     n_all = sum(len(v) for v in by_repo.values())
     total_stars = sum(stars[r] for r in big)
-    # Every merged PR is listed, including the collapsed groups, so the summary
-    # rows cannot understate the record.
+    # The archive below still carries every merge, so the featured tables being
+    # company-only can never understate the record or the badge.
     listed = [p for prs in by_repo.values() for p in prs]
     spec = load_flagships()
     # Count only what the API confirmed exists and is public, so a partial
@@ -372,20 +371,9 @@ def render(
         add("No company-backed merge has reached this bar yet.")
     add("")
 
-    if community:
-        group(
-            community,
-            "Merged into community and individual-maintainer projects",
-            f"Also {MIN_STARS:,}+ stars, but owned by a solo maintainer or an "
-            "academic / community group rather than a company.",
-        )
-
-    if small:
-        group(
-            small,
-            f"Merged into projects under {MIN_STARS:,} stars",
-            f"Real merges, below the {MIN_STARS:,} star bar of the tables above.",
-        )
+    if community or small:
+        lines.extend(aside({**community, **small}, "Also merged"))
+        add("")
 
     months = Counter(month_of(p["closed_at"]) for p in listed if p.get("closed_at"))
     add("<details>")
@@ -442,8 +430,8 @@ def render(
             f"{shown} open pull request{'s' if shown != 1 else ''} of mine are "
             "waiting on a maintainer"
             + (f" ({withheld} more held back as draft)" if withheld else "")
-            + f". Company-backed projects above {MIN_STARS:,} stars come first; "
-            "every other open pull request stays listed, just below them."
+            + f". Only company-backed projects above {MIN_STARS:,} stars are "
+            "listed here; the rest are counted in the line below."
         )
         add("")
         if review_company:
@@ -452,22 +440,10 @@ def render(
             add("No open pull request sits in a company-backed project yet.")
         add("")
 
-        if review_community:
-            group(
-                review_community,
-                "Open in community and individual-maintainer projects",
-                f"Also {MIN_STARS:,}+ stars, but owned by a solo maintainer or an "
-                "academic / community group rather than a company.",
-                table=open_pr_table,
-            )
-        if review_small:
-            group(
-                review_small,
-                f"Open in projects under {MIN_STARS:,} stars",
-                "Earlier work still in review, below the "
-                f"{MIN_STARS:,} star bar of the tables above.",
-                table=open_pr_table,
-            )
+        other = {**review_community, **review_small}
+        if other:
+            lines.extend(aside(other, "Also open"))
+            add("")
 
     add("---")
     add("")
