@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 81](https://img.shields.io/badge/MERGED__PRs-81-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.7K](https://img.shields.io/badge/UPSTREAM__STARS-396.7K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 81](https://img.shields.io/badge/MERGED__PRs-81-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.8K](https://img.shields.io/badge/UPSTREAM__STARS-396.8K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -168,13 +168,13 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-43 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+44 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.5K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 117.7K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.7K | 1 | [#6737](https://github.com/bytedance/deer-flow/pull/6737) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.7K | 2 | [#6737](https://github.com/bytedance/deer-flow/pull/6737) · [#6776](https://github.com/bytedance/deer-flow/pull/6776) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59.6K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.5K | 1 | [#2674](https://github.com/MemPalace/mempalace/pull/2674) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.5K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
@@ -190,4 +190,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 13:34 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 14:38 UTC.</sub>
