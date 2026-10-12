@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 80](https://img.shields.io/badge/MERGED__PRs-80-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.6K](https://img.shields.io/badge/UPSTREAM__STARS-396.6K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 81](https://img.shields.io/badge/MERGED__PRs-81-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.7K](https://img.shields.io/badge/UPSTREAM__STARS-396.7K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -59,7 +59,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.7K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.7K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 2 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 3 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.4K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 
@@ -72,7 +72,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 ```text
 2026-02  #                                        1
 2026-09  ######################################## 53
-2026-10  ####################                     26
+2026-10  ####################                     27
 ```
 
 </details>
@@ -82,6 +82,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-10-12 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8965](https://github.com/microsoft/agent-framework/pull/8965) Python: Honor a zero handoff autonomous turn limit instead of defaulting to 50 |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#430](https://github.com/StarTrail-org/LEANN/pull/430) fix(core): keep index metadata when MCP status counts passages |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#428](https://github.com/StarTrail-org/LEANN/pull/428) fix(core): let update_index choose passage IDs for unclaimed chunks |
 | 2026-10-08 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | [#3760](https://github.com/modelscope/FunASR/pull/3760) fix(frontend): stop cmvn readers from crashing on blank lines or returning empty statistics |
@@ -167,7 +168,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-43 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+42 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
@@ -182,11 +183,10 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.8K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.7K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 1 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
 
 **Also open, kept off the featured tables:** 10 pull requests across 4 projects &mdash; `HKUDS/nanobot`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `mrexodia/ida-pro-mcp`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 06:31 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 10:43 UTC.</sub>
