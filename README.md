@@ -167,7 +167,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-45 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+43 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
@@ -179,7 +179,6 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.5K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 42.7K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 33.1K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 24.0K | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.8K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.7K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
@@ -190,4 +189,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 05:05 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 06:31 UTC.</sub>
