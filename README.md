@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 80](https://img.shields.io/badge/MERGED__PRs-80-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.5K](https://img.shields.io/badge/UPSTREAM__STARS-396.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 80](https://img.shields.io/badge/MERGED__PRs-80-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.6K](https://img.shields.io/badge/UPSTREAM__STARS-396.6K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -56,11 +56,11 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 33.1K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [locustio/locust](https://github.com/locustio/locust) | 28.2K | 5 | [#3528](https://github.com/locustio/locust/pull/3528) · [#3534](https://github.com/locustio/locust/pull/3534) · [#3536](https://github.com/locustio/locust/pull/3536) · [#3538](https://github.com/locustio/locust/pull/3538) · [#3530](https://github.com/locustio/locust/pull/3530) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.6K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.7K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.7K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 2 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) |
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.3K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.4K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 
 **Also merged, kept off the featured tables:** 36 pull requests across 8 projects &mdash; `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`, `TencentCloud/Octop`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
@@ -167,19 +167,20 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-44 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+45 open pull requests of mine are waiting on a maintainer (9 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.5K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 117.7K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.7K | 1 | [#6737](https://github.com/bytedance/deer-flow/pull/6737) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59.6K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.5K | 1 | [#2674](https://github.com/MemPalace/mempalace/pull/2674) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.5K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 42.7K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 33.1K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 24.0K | 2 | [#23190](https://github.com/PrefectHQ/prefect/pull/23190) · [#23277](https://github.com/PrefectHQ/prefect/pull/23277) |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.7K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.8K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.8K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.7K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 1 | [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
@@ -189,4 +190,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 00:31 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 05:05 UTC.</sub>
