@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 81](https://img.shields.io/badge/MERGED__PRs-81-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.8K](https://img.shields.io/badge/UPSTREAM__STARS-396.8K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 82](https://img.shields.io/badge/MERGED__PRs-82-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 396.9K](https://img.shields.io/badge/UPSTREAM__STARS-396.9K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -52,7 +52,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Project | Stars | Merged | Pull requests |
 | --- | ---: | ---: | --- |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.8K | 20 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) · [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5960](https://github.com/bytedance/deer-flow/pull/5960) · [#6067](https://github.com/bytedance/deer-flow/pull/6067) · [#6174](https://github.com/bytedance/deer-flow/pull/6174) · [#6175](https://github.com/bytedance/deer-flow/pull/6175) · [#6252](https://github.com/bytedance/deer-flow/pull/6252) · [#6253](https://github.com/bytedance/deer-flow/pull/6253) · [#6274](https://github.com/bytedance/deer-flow/pull/6274) · [#6338](https://github.com/bytedance/deer-flow/pull/6338) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.8K | 21 | [#5555](https://github.com/bytedance/deer-flow/pull/5555) · [#5593](https://github.com/bytedance/deer-flow/pull/5593) · [#5609](https://github.com/bytedance/deer-flow/pull/5609) · [#5586](https://github.com/bytedance/deer-flow/pull/5586) · [#5588](https://github.com/bytedance/deer-flow/pull/5588) · [#5801](https://github.com/bytedance/deer-flow/pull/5801) · [#5821](https://github.com/bytedance/deer-flow/pull/5821) · [#5607](https://github.com/bytedance/deer-flow/pull/5607) · [#5852](https://github.com/bytedance/deer-flow/pull/5852) · [#5864](https://github.com/bytedance/deer-flow/pull/5864) · [#5883](https://github.com/bytedance/deer-flow/pull/5883) · [#5850](https://github.com/bytedance/deer-flow/pull/5850) · [#5960](https://github.com/bytedance/deer-flow/pull/5960) · [#6067](https://github.com/bytedance/deer-flow/pull/6067) · [#6174](https://github.com/bytedance/deer-flow/pull/6174) · [#6175](https://github.com/bytedance/deer-flow/pull/6175) · [#6252](https://github.com/bytedance/deer-flow/pull/6252) · [#6253](https://github.com/bytedance/deer-flow/pull/6253) · [#6274](https://github.com/bytedance/deer-flow/pull/6274) · [#6338](https://github.com/bytedance/deer-flow/pull/6338) · [#6737](https://github.com/bytedance/deer-flow/pull/6737) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 33.1K | 3 | [#2754](https://github.com/agentscope-ai/agentscope/pull/2754) · [#2808](https://github.com/agentscope-ai/agentscope/pull/2808) · [#2805](https://github.com/agentscope-ai/agentscope/pull/2805) |
 | [locustio/locust](https://github.com/locustio/locust) | 28.2K | 5 | [#3528](https://github.com/locustio/locust/pull/3528) · [#3534](https://github.com/locustio/locust/pull/3534) · [#3536](https://github.com/locustio/locust/pull/3536) · [#3538](https://github.com/locustio/locust/pull/3538) · [#3530](https://github.com/locustio/locust/pull/3530) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
@@ -72,7 +72,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 ```text
 2026-02  #                                        1
 2026-09  ######################################## 53
-2026-10  ####################                     27
+2026-10  #####################                    28
 ```
 
 </details>
@@ -82,6 +82,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-10-12 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6737](https://github.com/bytedance/deer-flow/pull/6737) fix(wechat): a scalar allowed_file_extensions config silently widens back to all 37 defaults |
 | 2026-10-12 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8965](https://github.com/microsoft/agent-framework/pull/8965) Python: Honor a zero handoff autonomous turn limit instead of defaulting to 50 |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#430](https://github.com/StarTrail-org/LEANN/pull/430) fix(core): keep index metadata when MCP status counts passages |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#428](https://github.com/StarTrail-org/LEANN/pull/428) fix(core): let update_index choose passage IDs for unclaimed chunks |
@@ -168,13 +169,13 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-48 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+47 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.6K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 117.7K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.8K | 2 | [#6737](https://github.com/bytedance/deer-flow/pull/6737) · [#6776](https://github.com/bytedance/deer-flow/pull/6776) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 117.8K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.8K | 1 | [#6776](https://github.com/bytedance/deer-flow/pull/6776) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59.6K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.5K | 2 | [#2674](https://github.com/MemPalace/mempalace/pull/2674) · [#2725](https://github.com/MemPalace/mempalace/pull/2725) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.5K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
@@ -191,4 +192,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-12 21:15 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-13 02:34 UTC.</sub>
