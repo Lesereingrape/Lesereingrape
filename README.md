@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 83](https://img.shields.io/badge/MERGED__PRs-83-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 397.7K](https://img.shields.io/badge/UPSTREAM__STARS-397.7K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 84](https://img.shields.io/badge/MERGED__PRs-84-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 10](https://img.shields.io/badge/COMPANY__PROJECTS-10-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 397.8K](https://img.shields.io/badge/UPSTREAM__STARS-397.8K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -58,8 +58,8 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.7K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.7K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.9K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
-| [livekit/agents](https://github.com/livekit/agents) | 14.7K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 3 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.8K | 1 | [#7468](https://github.com/livekit/agents/pull/7468) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 4 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#9318](https://github.com/microsoft/agent-framework/pull/9318) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.4K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 
@@ -72,7 +72,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 ```text
 2026-02  #                                        1
 2026-09  ######################################## 53
-2026-10  ######################                   29
+2026-10  #######################                  30
 ```
 
 </details>
@@ -82,6 +82,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-10-15 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#9318](https://github.com/microsoft/agent-framework/pull/9318) Python: Reject out-of-range Cosmos memory search parameters |
 | 2026-10-13 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6776](https://github.com/bytedance/deer-flow/pull/6776) fix(buzz): a single mention_free_channels ID was split into characters, a numeric one stopped the connector |
 | 2026-10-12 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6737](https://github.com/bytedance/deer-flow/pull/6737) fix(wechat): a scalar allowed_file_extensions config silently widens back to all 37 defaults |
 | 2026-10-12 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8965](https://github.com/microsoft/agent-framework/pull/8965) Python: Honor a zero handoff autonomous turn limit instead of defaulting to 50 |
@@ -170,7 +171,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-46 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+45 open pull requests of mine are waiting on a maintainer (11 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
@@ -184,12 +185,12 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [locustio/locust](https://github.com/locustio/locust) | 28.2K | 2 | [#3555](https://github.com/locustio/locust/pull/3555) · [#3557](https://github.com/locustio/locust/pull/3557) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.9K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.9K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
-| [livekit/agents](https://github.com/livekit/agents) | 14.7K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 2 | [#9314](https://github.com/microsoft/agent-framework/pull/9314) · [#9318](https://github.com/microsoft/agent-framework/pull/9318) |
+| [livekit/agents](https://github.com/livekit/agents) | 14.8K | 2 | [#7470](https://github.com/livekit/agents/pull/7470) · [#7619](https://github.com/livekit/agents/pull/7619) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.1K | 1 | [#9314](https://github.com/microsoft/agent-framework/pull/9314) |
 
 **Also open, kept off the featured tables:** 10 pull requests across 4 projects &mdash; `HKUDS/nanobot`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `mrexodia/ida-pro-mcp`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-15 04:34 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-15 11:24 UTC.</sub>
