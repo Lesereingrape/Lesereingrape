@@ -62,7 +62,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.2K | 4 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#9318](https://github.com/microsoft/agent-framework/pull/9318) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.5K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 10.4K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 10.5K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
 **Also merged, kept off the featured tables:** 36 pull requests across 8 projects &mdash; `HKUDS/nanobot`, `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `mrexodia/ida-pro-mcp`, `StarTrail-org/LEANN`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
@@ -196,4 +196,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-20 19:13 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-20 23:50 UTC.</sub>
