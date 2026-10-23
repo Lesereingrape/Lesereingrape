@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 88](https://img.shields.io/badge/MERGED__PRs-88-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 11](https://img.shields.io/badge/COMPANY__PROJECTS-11-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 460.7K](https://img.shields.io/badge/UPSTREAM__STARS-460.7K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 88](https://img.shields.io/badge/MERGED__PRs-88-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 11](https://img.shields.io/badge/COMPANY__PROJECTS-11-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 461.0K](https://img.shields.io/badge/UPSTREAM__STARS-461.0K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -180,14 +180,14 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.9K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 156.0K | 4 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15227](https://github.com/langflow-ai/langflow/pull/15227) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 118.9K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 60.0K | 4 | [#7610](https://github.com/crewAIInc/crewAI/pull/7610) · [#7612](https://github.com/crewAIInc/crewAI/pull/7612) · [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.7K | 1 | [#2725](https://github.com/MemPalace/mempalace/pull/2725) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.6K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 42.9K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 33.7K | 2 | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) · [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 19.0K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 19.1K | 2 | [#3377](https://github.com/confident-ai/deepeval/pull/3377) · [#3406](https://github.com/confident-ai/deepeval/pull/3406) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 15.9K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [livekit/agents](https://github.com/livekit/agents) | 14.9K | 1 | [#7619](https://github.com/livekit/agents/pull/7619) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.3K | 1 | [#9314](https://github.com/microsoft/agent-framework/pull/9314) |
@@ -197,4 +197,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-23 04:45 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-23 11:34 UTC.</sub>
