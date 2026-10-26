@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 89](https://img.shields.io/badge/MERGED__PRs-89-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 11](https://img.shields.io/badge/COMPANY__PROJECTS-11-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 463.1K](https://img.shields.io/badge/UPSTREAM__STARS-463.1K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 89](https://img.shields.io/badge/MERGED__PRs-89-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 11](https://img.shields.io/badge/COMPANY__PROJECTS-11-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 463.5K](https://img.shields.io/badge/UPSTREAM__STARS-463.5K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -64,7 +64,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.0K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11.1K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
-**Also merged, kept off the featured tables:** 36 pull requests across 8 projects &mdash; `HKUDS/nanobot`, `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `mrexodia/ida-pro-mcp`, `StarTrail-org/LEANN`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
+**Also merged, kept off the featured tables:** 36 pull requests across 8 projects &mdash; `HKUDS/nanobot`, `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
 
 <details>
@@ -197,4 +197,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-26 12:55 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-10-26 20:28 UTC.</sub>
