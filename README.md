@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 92](https://img.shields.io/badge/MERGED__PRs-92-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 13](https://img.shields.io/badge/COMPANY__PROJECTS-13-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 692.9K](https://img.shields.io/badge/UPSTREAM__STARS-692.9K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 92](https://img.shields.io/badge/MERGED__PRs-92-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 13](https://img.shields.io/badge/COMPANY__PROJECTS-13-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 693.2K](https://img.shields.io/badge/UPSTREAM__STARS-693.2K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -60,7 +60,7 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 27.0K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 21.0K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 16.1K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16.0K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16.1K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [livekit/agents](https://github.com/livekit/agents) | 15.2K | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.7K | 5 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#9318](https://github.com/microsoft/agent-framework/pull/9318) · [#9314](https://github.com/microsoft/agent-framework/pull/9314) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.4K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
@@ -202,4 +202,4 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-11-13 01:48 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-11-13 10:54 UTC.</sub>
