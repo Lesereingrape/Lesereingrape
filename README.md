@@ -4,7 +4,7 @@
 
 **Focus** &middot; AI agent runtimes and their memory subsystems &middot; multi-agent orchestration &middot; MCP and tool plumbing &middot; multimodal agents &middot; Python
 
-<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 92](https://img.shields.io/badge/MERGED__PRs-92-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 13](https://img.shields.io/badge/COMPANY__PROJECTS-13-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 695.6K](https://img.shields.io/badge/UPSTREAM__STARS-695.6K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
+<p align="left"> ![OWN LABS 16](https://img.shields.io/badge/OWN__LABS-16-bc8cff?style=flat-square&labelColor=1b1f24&color=bc8cff&logo=flask&logoColor=white) ![MERGED PRs 88](https://img.shields.io/badge/MERGED__PRs-88-4c8bf5?style=flat-square&labelColor=1b1f24&color=4c8bf5&logo=github&logoColor=white) ![COMPANY PROJECTS 12](https://img.shields.io/badge/COMPANY__PROJECTS-12-3fb950?style=flat-square&labelColor=1b1f24&color=3fb950&logo=building&logoColor=white) ![UPSTREAM STARS 721.9K](https://img.shields.io/badge/UPSTREAM__STARS-721.9K-e3b341?style=flat-square&labelColor=1b1f24&color=e3b341&logo=star&logoColor=white)</p>
 
 ## Labs I built
 
@@ -59,14 +59,13 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [locustio/locust](https://github.com/locustio/locust) | 28.3K | 7 | [#3528](https://github.com/locustio/locust/pull/3528) · [#3534](https://github.com/locustio/locust/pull/3534) · [#3536](https://github.com/locustio/locust/pull/3536) · [#3538](https://github.com/locustio/locust/pull/3538) · [#3530](https://github.com/locustio/locust/pull/3530) · [#3555](https://github.com/locustio/locust/pull/3555) · [#3557](https://github.com/locustio/locust/pull/3557) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 27.0K | 3 | [#12810](https://github.com/deepset-ai/haystack/pull/12810) · [#12905](https://github.com/deepset-ai/haystack/pull/12905) · [#12907](https://github.com/deepset-ai/haystack/pull/12907) |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 21.1K | 2 | [#3758](https://github.com/modelscope/FunASR/pull/3758) · [#3760](https://github.com/modelscope/FunASR/pull/3760) |
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16.3K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16.4K | 1 | [#3722](https://github.com/The-PR-Agent/pr-agent/pull/3722) |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 16.1K | 5 | [#10245](https://github.com/modelscope/ms-swift/pull/10245) · [#10248](https://github.com/modelscope/ms-swift/pull/10248) · [#10247](https://github.com/modelscope/ms-swift/pull/10247) · [#10250](https://github.com/modelscope/ms-swift/pull/10250) · [#10246](https://github.com/modelscope/ms-swift/pull/10246) |
 | [livekit/agents](https://github.com/livekit/agents) | 15.3K | 2 | [#7468](https://github.com/livekit/agents/pull/7468) · [#7470](https://github.com/livekit/agents/pull/7470) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14.7K | 5 | [#8787](https://github.com/microsoft/agent-framework/pull/8787) · [#8974](https://github.com/microsoft/agent-framework/pull/8974) · [#8965](https://github.com/microsoft/agent-framework/pull/8965) · [#9318](https://github.com/microsoft/agent-framework/pull/9318) · [#9314](https://github.com/microsoft/agent-framework/pull/9314) |
 | [neuml/txtai](https://github.com/neuml/txtai) | 13.6K | 2 | [#1325](https://github.com/neuml/txtai/pull/1325) · [#1323](https://github.com/neuml/txtai/pull/1323) |
 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 12.2K | 1 | [#1150](https://github.com/TencentCloud/Octop/pull/1150) |
 
-**Also merged, kept off the featured tables:** 36 pull requests across 8 projects &mdash; `HKUDS/nanobot`, `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `andrewyng/openworker`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
+**Also merged, kept off the featured tables:** 37 pull requests across 9 projects &mdash; `HKUDS/nanobot`, `zhayujie/CowAgent`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `andrewyng/openworker`, `StarTrail-org/LEANN`, `mrexodia/ida-pro-mcp`, `QwenLM/Qwen-MM-Plugins`, `iot-hackathon-2026-teamESGenius/iot_hackathon_2026_mannings`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
 
 <details>
@@ -75,8 +74,8 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 ```text
 2026-02  #                                        1
 2026-09  ######################################## 53
-2026-10  ###########################              36
-2026-11  ##                                       2
+2026-10  #######################                  31
+2026-11  ##                                       3
 ```
 
 </details>
@@ -86,25 +85,22 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 | Merged | Project | Pull request |
 | --- | --- | --- |
+| 2026-11-18 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | [#4098](https://github.com/HKUDS/LightRAG/pull/4098) fix(llm): treat a non-positive LLM_TIMEOUT as no timeout |
 | 2026-11-10 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | [#2741](https://github.com/agentscope-ai/agentscope/pull/2741) fix(workspace): honor an explicit max_live_stateful_mcps of 0 |
 | 2026-11-08 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | [#2725](https://github.com/MemPalace/mempalace/pull/2725) fix(mcp): treat only upper-case PQL clause keywords as keywords |
 | 2026-10-29 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | [#15227](https://github.com/langflow-ai/langflow/pull/15227) fix(initial-setup): apply falsy field edits when syncing flows from disk |
-| 2026-10-26 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#9314](https://github.com/microsoft/agent-framework/pull/9314) Python: Reject a non-positive MCP request timeout instead of disabling it |
 | 2026-10-21 | [livekit/agents](https://github.com/livekit/agents) | [#7470](https://github.com/livekit/agents/pull/7470) fix(utils): do not let a blank or non-numeric LK_* debug flag break package import |
 | 2026-10-18 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | [#5914](https://github.com/HKUDS/nanobot/pull/5914) fix(napcat): keep a message whose image declares a non-numeric file_size |
 | 2026-10-15 | [locustio/locust](https://github.com/locustio/locust) | [#3557](https://github.com/locustio/locust/pull/3557) Reject a non-finite spawn_rate instead of reporting a successful start |
 | 2026-10-15 | [locustio/locust](https://github.com/locustio/locust) | [#3555](https://github.com/locustio/locust/pull/3555) Keep a fractional spawn rate in the --html report file name |
-| 2026-10-15 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#9318](https://github.com/microsoft/agent-framework/pull/9318) Python: Reject out-of-range Cosmos memory search parameters |
 | 2026-10-13 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6776](https://github.com/bytedance/deer-flow/pull/6776) fix(buzz): a single mention_free_channels ID was split into characters, a numeric one stopped the connector |
 | 2026-10-12 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6737](https://github.com/bytedance/deer-flow/pull/6737) fix(wechat): a scalar allowed_file_extensions config silently widens back to all 37 defaults |
-| 2026-10-12 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8965](https://github.com/microsoft/agent-framework/pull/8965) Python: Honor a zero handoff autonomous turn limit instead of defaulting to 50 |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#430](https://github.com/StarTrail-org/LEANN/pull/430) fix(core): keep index metadata when MCP status counts passages |
 | 2026-10-09 | [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [#428](https://github.com/StarTrail-org/LEANN/pull/428) fix(core): let update_index choose passage IDs for unclaimed chunks |
 | 2026-10-08 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | [#3760](https://github.com/modelscope/FunASR/pull/3760) fix(frontend): stop cmvn readers from crashing on blank lines or returning empty statistics |
 | 2026-10-08 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | [#3758](https://github.com/modelscope/FunASR/pull/3758) fix(auto): skip blank lines in wav.scp and jsonl file lists |
 | 2026-10-05 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6338](https://github.com/bytedance/deer-flow/pull/6338) fix(discord): read allowed_guilds as IDs and deny every guild on an unreadable allowlist |
 | 2026-10-05 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6274](https://github.com/bytedance/deer-flow/pull/6274) fix(extensions): measure the team response size gate in UTF-8 bytes |
-| 2026-10-05 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8974](https://github.com/microsoft/agent-framework/pull/8974) Python: Search() keeps a falsy value instead of treating it as Blank |
 | 2026-10-05 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3514](https://github.com/zhayujie/CowAgent/pull/3514) fix(artifact): keep a relative artifact path POSIX on Windows |
 | 2026-10-04 | [neuml/txtai](https://github.com/neuml/txtai) | [#1323](https://github.com/neuml/txtai/pull/1323) Keep 0 and False in concat merge outputs |
 | 2026-10-04 | [neuml/txtai](https://github.com/neuml/txtai) | [#1325](https://github.com/neuml/txtai/pull/1325) Fix DuckDB bind parameters followed by a non-word character not being converted |
@@ -118,7 +114,6 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | 2026-10-03 | [locustio/locust](https://github.com/locustio/locust) | [#3528](https://github.com/locustio/locust/pull/3528) Reject a non-positive spawn_rate in new_dispatch() |
 | 2026-10-02 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6175](https://github.com/bytedance/deer-flow/pull/6175) fix(community): normalize max_results before handing it to Firecrawl and fastCRW |
 | 2026-10-02 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | [#6174](https://github.com/bytedance/deer-flow/pull/6174) fix(telegram): measure the rich-message cap in UTF-16 code units |
-| 2026-10-02 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | [#8787](https://github.com/microsoft/agent-framework/pull/8787) Python: Accept the registered audio/mpeg media type for MP3 input content |
 | 2026-10-01 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | [#71](https://github.com/QwenLM/Qwen-MM-Plugins/pull/71) fix(api): bound transcribe_audio's ffmpeg calls with QWEN_MM_FFMPEG_TIMEOUT |
 | 2026-10-01 | [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | [#69](https://github.com/QwenLM/Qwen-MM-Plugins/pull/69) fix(blender,freecad): keep a blank port in the config from killing the server |
 | 2026-10-01 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3344](https://github.com/zhayujie/CowAgent/pull/3344) fix(env_config): refuse entries that would split into extra .env lines |
@@ -183,13 +178,13 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 
 ## In review right now
 
-34 open pull requests of mine are waiting on a maintainer (7 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
+33 open pull requests of mine are waiting on a maintainer (7 more held back as draft). Only company-backed projects above 10,000 stars are listed here; the rest are counted in the line below.
 
 | Project | Stars | Open | Pull requests |
 | --- | ---: | ---: | --- |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 156.7K | 3 | [#15223](https://github.com/langflow-ai/langflow/pull/15223) · [#15225](https://github.com/langflow-ai/langflow/pull/15225) · [#15229](https://github.com/langflow-ai/langflow/pull/15229) |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 121.3K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 61.0K | 2 | [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 121.4K | 4 | [#5838](https://github.com/browser-use/browser-use/pull/5838) · [#5845](https://github.com/browser-use/browser-use/pull/5845) · [#5847](https://github.com/browser-use/browser-use/pull/5847) · [#5849](https://github.com/browser-use/browser-use/pull/5849) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 61.1K | 2 | [#7615](https://github.com/crewAIInc/crewAI/pull/7615) · [#7617](https://github.com/crewAIInc/crewAI/pull/7617) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 52.9K | 2 | [#23244](https://github.com/run-llama/llama_index/pull/23244) · [#23248](https://github.com/run-llama/llama_index/pull/23248) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 43.2K | 7 | [#10281](https://github.com/agno-agi/agno/pull/10281) · [#10287](https://github.com/agno-agi/agno/pull/10287) · [#10297](https://github.com/agno-agi/agno/pull/10297) · [#10301](https://github.com/agno-agi/agno/pull/10301) · [#10320](https://github.com/agno-agi/agno/pull/10320) · [#10323](https://github.com/agno-agi/agno/pull/10323) · [#10325](https://github.com/agno-agi/agno/pull/10325) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 36.2K | 1 | [#2799](https://github.com/agentscope-ai/agentscope/pull/2799) |
@@ -197,9 +192,9 @@ Repositories run by a company or product organisation, each with 10,000+ stars, 
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 16.1K | 3 | [#10251](https://github.com/modelscope/ms-swift/pull/10251) · [#10264](https://github.com/modelscope/ms-swift/pull/10264) · [#10266](https://github.com/modelscope/ms-swift/pull/10266) |
 | [livekit/agents](https://github.com/livekit/agents) | 15.3K | 1 | [#7619](https://github.com/livekit/agents/pull/7619) |
 
-**Also open, kept off the featured tables:** 9 pull requests across 4 projects &mdash; `HKUDS/nanobot`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `mrexodia/ida-pro-mcp`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
+**Also open, kept off the featured tables:** 8 pull requests across 4 projects &mdash; `HKUDS/nanobot`, `AstrBotDevs/AstrBot`, `HKUDS/LightRAG`, `mrexodia/ida-pro-mcp`. Company-backed work above 10,000 stars is what this page features; this line exists so the totals still add up.
 
 
 ---
 
-<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-11-18 00:56 UTC.</sub>
+<sub>Rendered by [`scripts/build_readme.py`](scripts/build_readme.py) from the GitHub API &mdash; the lab table reads each repository's live description, the PR tables read the search API &mdash; and refreshed by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) &middot; record last changed 2026-11-18 11:35 UTC.</sub>
